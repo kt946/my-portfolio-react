@@ -22,8 +22,8 @@ function categorySelected(name) {
 
 function Navigation() {
   return(
-    <nav id='nav' className='navbar fs-4'>
-      <ul className='nav d-flex align-items-center'>
+    <nav id='nav' className='navbar fs-4 mx-5'>
+      <ul className='nav'>
         {categories.map((category) => (
           <li 
             className='nav-item mx-2 p-1'
