@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +10,24 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* About Me section */
+.hero {
+  height: 400px;
+  background: url(../src/assets/images/hero-image.png) center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.hero h2 {
+  font-size: 6rem;
+  padding: 10px 15px;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.section-title {
+  font-size: 2.5rem;
 }
