@@ -8,17 +8,17 @@ import Resume from './components/Resume';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About Me');
-
-  useEffect(() => {
-    document.title = `My Portfolio - ${currentPage}`;
-  }, [currentPage]);
-
+  
   const renderPage = () => {
     return currentPage === 'About Me' ? <About />
       : currentPage === 'Portfolio' ? <Portfolio />
       : currentPage === 'Contact' ? <Contact />
       : <Resume />;
-  }
+  };
+
+  useEffect(() => {
+    document.title = `My Portfolio - ${currentPage}`;
+  }, [currentPage]);
 
   const handlePageChange = page => setCurrentPage(page);
 

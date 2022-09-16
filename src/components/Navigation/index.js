@@ -24,7 +24,9 @@ function Navigation({ handlePageChange }) {
             className='nav-item mx-2 p-1'
             key={category.name}
           >
-            <span onClick={() => handlePageChange(category.name)}>
+            <span 
+              onClick={() => handlePageChange(category.name)}
+            >
               {category.name}
             </span>
           </li>
