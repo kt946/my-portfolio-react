@@ -47,7 +47,7 @@ function Contact() {
               className="form-control"
               name="name"
               defaultValue={name}
-              onChange={handleChange}
+              onBlur={handleChange}
             />
           </div>
           <div className="mb-3">
@@ -57,7 +57,7 @@ function Contact() {
               className="form-control"
               name="email"
               defaultValue={email}
-              onChange={handleChange}
+              onBlur={handleChange}
             />
           </div>
           <div className="mb-3">
@@ -67,7 +67,7 @@ function Contact() {
               name="message"
               defaultValue={message}
               rows="5"
-              onChange={handleChange}
+              onBlur={handleChange}
             />
           </div>
           {errorMessage && (
