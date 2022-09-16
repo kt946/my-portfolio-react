@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+// import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
+  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const { name, email, message } = formState;
+
+  function handleChange(e) {
+    setFormState({...formState, [e.target.name]: e.target.value })
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log(formState);
+  }
+
   return(
     <section id="contact" className="mx-5 py-3 text-white">
       <h2 className="section-title">
         Contact
       </h2>
-      <form id="contact-form" className="border rounded my-2">
+      <form id="contact-form" className="border rounded my-2" onSubmit={handleSubmit}>
         <div className="m-4">
           <div className="mb-3">
             <label htmlFor="name" className="form-label fs-5">Name</label>
@@ -14,6 +27,8 @@ function Contact() {
               type="text" 
               className="form-control"
               name="name"
+              defaultValue={name}
+              onChange={handleChange}
             />
           </div>
           <div className="mb-3">
@@ -22,6 +37,8 @@ function Contact() {
               type="email" 
               className="form-control"
               name="email"
+              defaultValue={email}
+              onChange={handleChange}
             />
           </div>
           <div className="mb-3">
@@ -29,7 +46,9 @@ function Contact() {
             <textarea  
               className="form-control"
               name="message"
+              defaultValue={message}
               rows="5"
+              onChange={handleChange}
             />
           </div>
           <div className="mb-3">
