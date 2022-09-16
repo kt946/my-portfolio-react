@@ -3,7 +3,7 @@ import Project from '../Project';
 
 function Portfolio() {
   return(
-    <section id="Portfolio" className='mx-5 py-3 text-white'>
+    <section id="portfolio" className='mx-5 py-3 text-white'>
       <h2 className='section-title'>
         Portfolio
       </h2>

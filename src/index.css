@@ -14,7 +14,7 @@ code {
 }
 
 main {
-  min-height: calc(100vh - 72px - 76px);
+  min-height: calc(100vh - 76px - 76px);
 }
 
 /* About Me section */
@@ -35,4 +35,8 @@ main {
 
 .section-title {
   font-size: 2.5rem;
+}
+
+section {
+  scroll-margin-top: 5rem;
 }

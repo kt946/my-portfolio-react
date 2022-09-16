@@ -1,20 +1,11 @@
 import React from 'react';
 
-function Navigation({ handlePageChange }) {
-  const categories = [
-    {
-      name: 'About Me'
-    },
-    {
-      name: 'Portfolio'
-    },
-    {
-      name: 'Contact'
-    },
-    {
-      name: 'Resume'
-    }
-  ];
+function Navigation(props) {
+  const {
+    categories = [],
+    currentPage,
+    handlePageChange
+  } = props;
 
   return(
     <nav id='nav' className='navbar fs-4 mx-5'>
@@ -24,11 +15,13 @@ function Navigation({ handlePageChange }) {
             className='nav-item mx-2 p-1'
             key={category.name}
           >
-            <span 
+            <a
+              href={`#${category.id}`}
               onClick={() => handlePageChange(category.name)}
+              className={`nav-link ${currentPage === category.name && 'text-info'}`}
             >
               {category.name}
-            </span>
+            </a>
           </li>
         ))}
       </ul>

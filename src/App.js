@@ -7,7 +7,26 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('About Me');
+  const [categories] = useState([
+    {
+      name: 'About Me',
+      id: 'about'
+    },
+    {
+      name: 'Portfolio',
+      id: 'portfolio'
+    },
+    {
+      name: 'Contact',
+      id: 'contact'
+    },
+    {
+      name: 'Resume',
+      id: 'resume'
+    }
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(categories[0].name);
   
   const renderPage = () => {
     return currentPage === 'About Me' ? <About />
@@ -24,7 +43,11 @@ function App() {
 
   return (
     <div>
-      <Header handlePageChange={handlePageChange} />
+      <Header 
+        categories={categories}
+        currentPage={currentPage}
+        handlePageChange={handlePageChange} 
+      />
       <main>
         {renderPage()}
       </main>
