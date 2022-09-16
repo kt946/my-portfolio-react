@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../Navigation';
 
-function Header() {
+function Header({ handlePageChange }) {
   return(
     <header className='text-bg-dark d-flex justify-content-between'>
       <h1 id='name' className='p-2'>
@@ -9,7 +9,7 @@ function Header() {
             Kyle Tang
         </a>
       </h1>
-      <Navigation></Navigation>
+      <Navigation handlePageChange={handlePageChange}></Navigation>
     </header>
   );
 }

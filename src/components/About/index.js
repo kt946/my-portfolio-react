@@ -8,7 +8,7 @@ function About() {
           Hello World!
         </h2>
       </div>
-      <div className='mx-5 my-3'>
+      <div className='mx-5 py-3'>
         <h2 className='section-title'>
           About Me
         </h2>

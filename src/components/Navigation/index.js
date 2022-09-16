@@ -1,26 +1,21 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
 
-const categories = [
-  {
-    name: 'about me'
-  },
-  {
-    name: 'portfolio'
-  },
-  {
-    name: 'contact'
-  },
-  {
-    name: 'resume'
-  }
-];
+function Navigation({ handlePageChange }) {
+  const categories = [
+    {
+      name: 'About Me'
+    },
+    {
+      name: 'Portfolio'
+    },
+    {
+      name: 'Contact'
+    },
+    {
+      name: 'Resume'
+    }
+  ];
 
-function categorySelected(name) {
-  console.log(`${name} clicked`)
-}
-
-function Navigation() {
   return(
     <nav id='nav' className='navbar fs-4 mx-5'>
       <ul className='nav'>
@@ -29,8 +24,8 @@ function Navigation() {
             className='nav-item mx-2 p-1'
             key={category.name}
           >
-            <span onClick={() => categorySelected(category.name)}>
-              {capitalizeFirstLetter(category.name)}
+            <span onClick={() => handlePageChange(category.name)}>
+              {category.name}
             </span>
           </li>
         ))}
