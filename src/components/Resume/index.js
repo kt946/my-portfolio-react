@@ -35,35 +35,33 @@ function Resume() {
           </a>
         </span>
       </div>
-      <div className="my-3">
-        <div className="row g-4">
-          <div className="col">
-            <div className="border rounded">
-              <h3 className="fs-5 py-3 px-2 text-center border-bottom">
-                Front-end Proficiencies
-              </h3>
-              <ul className="fs-5">
-                {frontEndSkills.map(skill => (
-                  <li key={skill}>
-                    {skill}
-                  </li>
-                ))}
-              </ul>
-            </div>
+      <div className="row g-4 my-3">
+        <div className="col">
+          <div className="border rounded">
+            <h3 className="fs-5 py-3 px-2 text-center border-bottom">
+              Front-end Proficiencies
+            </h3>
+            <ul className="fs-5">
+              {frontEndSkills.map(skill => (
+                <li key={skill}>
+                  {skill}
+                </li>
+              ))}
+            </ul>
           </div>
-          <div className="col">
-            <div className="border rounded">
-              <h3 className="fs-5 py-3 px-2 text-center border-bottom">
-                Back-end Proficiencies
-              </h3>
-              <ul className="fs-5">
-                {backEndSkills.map(skill => (
-                  <li key={skill}>
-                    {skill}
-                  </li>
-                ))}
-              </ul>
-            </div>
+        </div>
+        <div className="col">
+          <div className="border rounded">
+            <h3 className="fs-5 py-3 px-2 text-center border-bottom">
+              Back-end Proficiencies
+            </h3>
+            <ul className="fs-5">
+              {backEndSkills.map(skill => (
+                <li key={skill}>
+                  {skill}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
