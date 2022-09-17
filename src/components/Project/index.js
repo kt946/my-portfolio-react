@@ -4,13 +4,13 @@ function Project(props) {
   const { projects = [] } = props;
   
   return(
-    <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4'>
+    <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       {projects.map((project) => (
         <div 
-          className='col'
+          className="col"
           key={project.title}
         >
-          <div className='card h-100'>
+          <div className="card h-100">
             <img 
               src={require(`../../assets/images/${project.image}.jpg`)}
               className="card-img-top" 

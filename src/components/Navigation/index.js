@@ -8,17 +8,17 @@ function Navigation(props) {
   } = props;
 
   return(
-    <nav id='nav' className='navbar fs-4 mx-5'>
-      <ul className='nav'>
+    <nav id="nav" className="navbar fs-4">
+      <ul className="nav justify-content-end">
         {categories.map((category) => (
           <li 
-            className='nav-item mx-2 p-1'
+            className="nav-item"
             key={category.name}
           >
             <a
               href={`#${category.id}`}
               onClick={() => handlePageChange(category.name)}
-              className={`nav-link ${currentPage === category.name && 'text-info'}`}
+              className={`nav-link ${currentPage === category.name && "text-info"}`}
             >
               {category.name}
             </a>

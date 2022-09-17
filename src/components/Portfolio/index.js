@@ -48,8 +48,8 @@ function Portfolio() {
   ]);
 
   return(
-    <section id="portfolio" className='mx-4 mx-sm-5 py-3'>
-      <h2 className='section-title text-white'>
+    <section id="portfolio" className="mx-4 mx-sm-5 py-3">
+      <h2 className="section-title text-white">
         Portfolio
       </h2>
       <Project projects={projects}></Project>

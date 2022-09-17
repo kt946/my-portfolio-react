@@ -22,19 +22,23 @@ function Footer() {
   return(
     <section 
       id="footer" 
-      className='text-bg-dark d-flex justify-content-center p-2'
+      className="text-bg-dark"
     >
-      <div className='fs-1'>
+      <ul className="fs-1 nav justify-content-center">
         {categories.map((category) => (
-          <a 
-            href={category.link}
-            className='mx-4 text-white'
+          <li 
+            className="nav-item"
             key={category.name}
           >
-            <i class={category.class}></i>
-          </a>
+            <a 
+              href={category.link}
+              className="mx-2 nav-link"
+            >
+              <i class={category.class}></i>
+            </a>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }
