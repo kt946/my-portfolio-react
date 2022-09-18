@@ -8,7 +8,7 @@ function Project(props) {
       {projects.map((project) => (
         <div 
           className="col"
-          key={project.title}
+          key={project.id}
         >
           <div className="card h-100">
             <img 
