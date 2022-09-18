@@ -20,11 +20,10 @@ const categories = [
 
 function Footer() {
   return(
-    <section 
+    <footer 
       id="footer" 
-      className="text-bg-dark"
     >
-      <ul className="fs-1 nav justify-content-center">
+      <ul className="fs-2 nav justify-content-center">
         {categories.map((category) => (
           <li 
             className="nav-item"
@@ -32,14 +31,14 @@ function Footer() {
           >
             <a 
               href={category.link}
-              className="mx-2 nav-link"
+              className="p-1 mx-3 nav-link"
             >
               <i class={category.class}></i>
             </a>
           </li>
         ))}
       </ul>
-    </section>
+    </footer>
   );
 }
 

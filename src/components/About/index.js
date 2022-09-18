@@ -3,10 +3,13 @@ import React from 'react';
 function About() {
   return(
     <section id="about" className="text-white">
-      <div className="hero p-5">
+      <div className="hero p-5 d-flex flex-column justify-content-center align-items-center">
         <h2>
-          Hello World!
+          Hello World! I'm Kyle Tang, 
         </h2>
+        <p className="fs-1">
+          a Full-Stack Web Developer
+        </p>
       </div>
       <div className="mx-4 mx-sm-5 py-3">
         <h2 className="section-title">

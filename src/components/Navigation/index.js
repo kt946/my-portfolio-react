@@ -8,7 +8,7 @@ function Navigation(props) {
   } = props;
 
   return(
-    <nav id="nav" className="navbar fs-4">
+    <nav id="nav" className="navbar fs-5">
       <ul className="nav justify-content-end">
         {categories.map((category) => (
           <li 
@@ -18,7 +18,7 @@ function Navigation(props) {
             <a
               href={`#${category.id}`}
               onClick={() => handlePageChange(category.name)}
-              className={`nav-link ${currentPage === category.name && "text-info"}`}
+              className={`nav-link p-1 mx-2 ${currentPage === category.name && "text-white"}`}
             >
               {category.name}
             </a>
