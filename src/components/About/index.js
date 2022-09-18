@@ -5,10 +5,10 @@ function About() {
   return(
     <section id="about" className="text-white">
       <div className="hero d-flex flex-column justify-content-center align-items-center">
-        <h2>
+        <h2 className="text-center mx-4">
           Hello world! I'm Kyle Tang.
         </h2>
-        <p className="fs-1">
+        <p className="fs-1 text-center">
           A Full-Stack Web Developer.
         </p>
       </div>

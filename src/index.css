@@ -77,8 +77,11 @@ section {
   min-height: calc(100vh - 54px);
 }
 
-.hero h2, .hero p {
+.hero h2 {
   font-size: 5rem;
+}
+
+.hero h2, .hero p {
   text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
@@ -87,9 +90,19 @@ section {
   width: 300px;
 }
 
+@media screen and (max-width: 768px) {
+  .hero h2 {
+    font-size: 8vw;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .section-title {
     font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 15vw;
   }
 
   .portrait-image {
