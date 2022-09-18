@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #003049;
+  --primary-color: #ffffff;
 }
 
 * {
@@ -36,9 +36,13 @@ h1 {
   font-family: 'Bebas Neue', cursive;
 }
 
-header, footer {
+header {
   background-color: rgb(0, 0, 0, 0.85);
   backdrop-filter: blur(2px);
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
 }
 
 .nav-link {
@@ -50,9 +54,27 @@ header, footer {
   text-shadow: 0px 0px 2px rgb(255, 255, 255);
 }
 
+/* Sections */
+section {
+  scroll-margin-top: 5rem;
+}
+
+.section-title {
+  font-size: 3rem;
+}
+
+.custom-bg-color {
+  background-color: var(--primary-color);
+}
+
+.custom-container {
+  margin: auto;
+  width: 80%;
+}
+
 /* About Me section */
 .hero {
-  min-height: calc(100vh - 72px);
+  min-height: calc(100vh - 54px);
 }
 
 .hero h2, .hero p {
@@ -60,10 +82,21 @@ header, footer {
   text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
-.section-title {
-  font-size: 2.5rem;
+.portrait-image {
+  border-radius: 50%;
+  width: 300px;
 }
 
-section {
-  scroll-margin-top: 5rem;
+@media screen and (max-width: 576px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .portrait-image {
+    width: 60vw;
+  }
+
+  .custom-fs {
+    font-size: 16px;
+  }
 }

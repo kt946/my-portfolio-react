@@ -1,39 +1,37 @@
 import React from 'react';
 
-const categories = [
+const footerLinks = [
   {
     name: 'GitHub',
-    class: 'bi bi-github',
+    symbol: 'bi bi-github',
     link: '/'
   },
   {
     name: 'LinkedIn',
-    class: 'bi bi-linkedin',
+    symbol: 'bi bi-linkedin',
     link: '/'
   },
   {
     name: 'Stack Overflow',
-    class: 'bi bi-stack-overflow',
+    symbol: 'bi bi-stack-overflow',
     link: '/'
   },
 ];
 
 function Footer() {
   return(
-    <footer 
-      id="footer" 
-    >
+    <footer id="footer">
       <ul className="fs-2 nav justify-content-center">
-        {categories.map((category) => (
+        {footerLinks.map((footerLink) => (
           <li 
             className="nav-item"
-            key={category.name}
+            key={footerLink.name}
           >
             <a 
-              href={category.link}
+              href={footerLink.link}
               className="p-1 mx-3 nav-link"
             >
-              <i class={category.class}></i>
+              <i className={footerLink.symbol}></i>
             </a>
           </li>
         ))}
