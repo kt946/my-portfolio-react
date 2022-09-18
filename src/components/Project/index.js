@@ -18,10 +18,10 @@ function Project(props) {
             />
             <div className="card-body">
               <h5 className="card-title">{project.title}</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
               <p className="card-text">{project.description}</p>
             </div>
-            <div class="card-footer d-flex justify-content-between">
+            <div className="card-footer d-flex justify-content-between">
               <a href={project.deployed} className="btn btn-primary">Deployed App</a>
               <a href={project.repo} className="btn btn-success">GitHub Repository</a>
             </div>
