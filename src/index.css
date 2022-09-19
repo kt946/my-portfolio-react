@@ -27,10 +27,6 @@ code {
     monospace;
 }
 
-main {
-  min-height: calc(100vh - 54px - 56px);
-}
-
 /* Header and Footer */
 h1 {
   font-family: 'Bebas Neue', cursive;
@@ -67,6 +63,10 @@ section {
   background-color: var(--primary-color);
   background: url(../src/assets/images/white-bg-image.png) no-repeat fixed top;
   background-size: cover;
+}
+
+.custom-height {
+  min-height: calc(100vh - 54px - 56px);
 }
 
 .custom-container {

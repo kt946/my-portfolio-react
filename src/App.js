@@ -48,7 +48,7 @@ function App() {
         currentPage={currentPage}
         handlePageChange={handlePageChange} 
       />
-      <main>
+      <main className="custom-height">
         {renderPage()}
       </main>
       <Footer />

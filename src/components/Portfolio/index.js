@@ -59,7 +59,7 @@ function Portfolio() {
   ]);
 
   return(
-    <section id="portfolio" className="py-4 custom-bg-color">
+    <section id="portfolio" className="py-4 custom-bg-color custom-height">
       <div className="container pb-4">
         <h2 className="section-title text-center border-bottom border-primary border-2 pb-2 mb-4">
           Portfolio
