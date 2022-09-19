@@ -10,14 +10,14 @@ function Project(props) {
           className="col"
           key={project.id}
         >
-          <div className="card h-100">
+          <div className="card h-100 border-dark">
             <img 
               src={require(`../../assets/images/${project.image}.jpg`)}
               className="card-img-top" 
               alt={project.title}
             />
             <div className="card-body">
-              <h5 className="card-title">{project.title}</h5>
+              <h4 className="card-title">{project.title}</h4>
               <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
               <p className="card-text">{project.description}</p>
             </div>

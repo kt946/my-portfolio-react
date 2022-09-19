@@ -65,6 +65,8 @@ section {
 
 .custom-bg-color {
   background-color: var(--primary-color);
+  background: url(../src/assets/images/white-bg-image.png) no-repeat fixed top;
+  background-size: cover;
 }
 
 .custom-container {

@@ -54,11 +54,13 @@ function Portfolio() {
   ]);
 
   return(
-    <section id="portfolio" className="mx-4 mx-sm-5 py-3">
-      <h2 className="section-title text-white">
-        Portfolio
-      </h2>
-      <Project projects={projects}></Project>
+    <section id="portfolio" className="py-4 custom-bg-color">
+      <div className="container pb-4">
+        <h2 className="section-title text-center border-bottom border-primary border-2 pb-2 mb-4">
+          Portfolio
+        </h2>
+        <Project projects={projects}></Project>
+      </div>
     </section>
   );
 }
