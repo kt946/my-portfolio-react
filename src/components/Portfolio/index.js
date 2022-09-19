@@ -6,42 +6,53 @@ function Portfolio() {
     {
       title: 'Watch It Later',
       id: 'watch-it-later',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum odio dolorem cumque nobis, sed ea quibusdam veritatis esse veniam labore exercitationem nostrum non itaque eveniet officiis doloribus iste quis obcaecati!',
+      subtitle: 'Node, MySQL, Sequelize, Handlebars, Bulma, MVC, TMDB API',
+      description: `A full-stack app to search for movies and TV shows. 
+        In addition to looking up movie information, users are able to create accounts to add movies to 
+        their personal watchlist as well as leave comments and rate movies.`,
       deployed: 'https://watch-it-later.herokuapp.com/',
       repo: 'https://github.com/cnohilly/watch-it-later'
     },
     {
       title: 'Movie TV Watchlist',
       id: 'movie-tv-watchlist',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi at, temporibus culpa sed itaque fugiat optio rerum, hic odit autem alias architecto ratione debitis quisquam quibusdam accusantium veritatis molestias.',
+      subtitle: 'HTML, CSS, JavaScript, Bulma, TMDB API',
+      description: `Looking for something to watch? 
+        Use this app to search for movies and TV shows through the TMDB's API! 
+        Users are able to view movie and TV show information as well as add them to a personal watchlist`,
       deployed: 'https://cnohilly.github.io/movie-tv-watchlist/',
       repo: 'https://github.com/cnohilly/movie-tv-watchlist'
     },
     {
       title: 'Weather Dashboard',
       id: 'weather-dashboard',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, delectus, sint ad similique tempore sapiente est magni odit ab dolorem suscipit quae ratione nesciunt vero ipsam nulla ut exercitationem amet!',
+      subtitle: 'HTML, CSS, JavaScript, Bootstrap, OpenWeather API',
+      description: `An app to search for the current weather and 5-day forecast in cities using the OpenWeather One Call API.`,
       deployed: 'https://kt946.github.io/weather-dashboard/',
       repo: 'https://github.com/kt946/weather-dashboard'
     },
     {
       title: 'The Epic Tech Blog',
       id: 'the-epic-tech-blog',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam iste quibusdam iusto sit soluta inventore nemo eos, alias cupiditate at dicta placeat quia nobis corporis vel. Tempora mollitia laudantium obcaecati.',
+      subtitle: 'Node, MySQL, Sequelize, Handlebars, Bootstrap, MVC',
+      description: `A CMS-style blog site using the MVC paradigm for discussing technology through blog posts and comments.`,
       deployed: 'https://sheltered-mesa-54132.herokuapp.com/',
       repo: 'https://github.com/kt946/epic-tech-blog-MVC'
     },
     {
       title: 'Pizza Hunt',
       id: 'pizza-hunt',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore possimus ullam reprehenderit molestias esse cumque libero. Porro quasi nisi, saepe, possimus ipsam nesciunt, adipisci et minus quia in repellat?',
+      subtitle: 'Node, NoSQL, MongoDB, Mongoose',
+      description: `Hungry for some pizza? Check out Pizza Hunt, an app that uses NoSQL to store pizza recipies and user comments.`,
       deployed: 'https://pizza-hunt-13648.herokuapp.com/',
       repo: 'https://github.com/kt946/pizza-hunt'
     },
     {
       title: 'Taskmaster Pro',
       id: 'taskmaster-pro',
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quaerat natus at voluptates esse praesentium deleniti placeat, cum delectus assumenda quo illum illo, ratione, rem officiis. Debitis quam odio ad.',
+      subtitle: 'HTML, CSS, JavaScript, jQuery, Bootstrap',
+      description: `Got a busy week ahead? Taskmaster Pro, a task-management application, can help you 
+        organize and save your tasks and due dates all from your local browser!`,
       deployed: 'https://kt946.github.io/taskmaster-pro/',
       repo: 'https://github.com/kt946/taskmaster-pro'
     },

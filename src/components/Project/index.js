@@ -16,9 +16,11 @@ function Project(props) {
               className="card-img-top border-bottom" 
               alt={project.title}
             />
-            <div className="card-body">
+            <div class="card-header">
               <h4 className="card-title">{project.title}</h4>
-              <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <h6 className="card-subtitle text-muted">{project.subtitle}</h6>
+            </div>
+            <div className="card-body">
               <p className="card-text">{project.description}</p>
             </div>
             <div className="card-footer d-flex justify-content-between">
