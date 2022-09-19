@@ -22,7 +22,7 @@ function About() {
               <img 
                 src={portraitPhoto}
                 alt="portrait"
-                className="portrait-image"
+                className="portrait-image shadow"
               />
             </div>
             <div className="ms-0 ms-md-5 custom-fs">

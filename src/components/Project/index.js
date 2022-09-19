@@ -10,10 +10,10 @@ function Project(props) {
           className="col"
           key={project.id}
         >
-          <div className="card h-100 border-dark">
+          <div className="card h-100 border-dark shadow-sm">
             <img 
-              src={require(`../../assets/images/${project.image}.jpg`)}
-              className="card-img-top" 
+              src={require(`../../assets/images/${project.id}.png`)}
+              className="card-img-top border-bottom" 
               alt={project.title}
             />
             <div className="card-body">
