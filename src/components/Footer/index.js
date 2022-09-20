@@ -2,6 +2,11 @@ import React from 'react';
 
 const footerLinks = [
   {
+    name: 'Email',
+    symbol: 'bi bi-envelope-fill',
+    link: '/'
+  },
+  {
     name: 'GitHub',
     symbol: 'bi bi-github',
     link: '/'
