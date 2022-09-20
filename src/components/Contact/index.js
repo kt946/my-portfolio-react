@@ -43,20 +43,20 @@ function Contact() {
           Thanks for visiting! Leave a message and I'll get back to you soon!
         </p>
         <div className="fs-4 text-center d-flex flex-column flex-sm-row justify-content-center">
-            <a 
-                href="/"
-                className="p-1 mx-3 text-decoration-none"
-              >
-                <i className="bi bi-envelope-fill me-2"></i>
-                test@test.com
-              </a>
-            <a 
-                href="/"
-                className="p-1 mx-3 text-decoration-none"
-              >
-                <i className="bi bi-telephone-fill me-2"></i>
-                555-555-5555
-              </a>
+          <a 
+            href="/"
+            className="p-1 mx-3 text-decoration-none"
+          >
+            <i className="bi bi-envelope-fill me-2"></i>
+            test@test.com
+          </a>
+          <a 
+            href="/"
+            className="p-1 mx-3 text-decoration-none"
+          >
+            <i className="bi bi-telephone-fill me-2"></i>
+            555-555-5555
+          </a>
         </div>
         <div className="d-flex justify-content-center">
           <form id="contact-form" className="rounded my-2 mx-3 p-4 bg-white shadow" onSubmit={handleSubmit}>

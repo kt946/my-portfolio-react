@@ -21,47 +21,53 @@ function Resume() {
   ];
 
   return(
-    <section id="resume" className="mx-4 mx-sm-5 py-3 text-white">
-      <h2 className="section-title">
-        Resume
-      </h2>
-      <div className="mt-5 fs-5">
-        Download my <span>
+    <section id="resume" className="py-4 custom-bg-color custom-height">
+      <div className="container pb-4">
+        <h2 className="section-title text-center border-bottom border-primary border-2 pb-2 mb-4">
+          Resume
+        </h2>
+        <div className="d-flex justify-content-center">
           <a 
             href="/" 
-            className="text-decoration-none"
+            className="btn btn-primary btn-lg rounded-pill"
           >
-            resume
+            Download resume
           </a>
-        </span>
-      </div>
-      <div className="row g-4 my-3">
-        <div className="col">
-          <div className="border rounded">
-            <h3 className="fs-5 py-3 px-2 text-center border-bottom">
-              Front-end Proficiencies
-            </h3>
-            <ul className="fs-5">
-              {frontEndSkills.map(skill => (
-                <li key={skill}>
-                  {skill}
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
-        <div className="col">
-          <div className="border rounded">
-            <h3 className="fs-5 py-3 px-2 text-center border-bottom">
-              Back-end Proficiencies
-            </h3>
-            <ul className="fs-5">
-              {backEndSkills.map(skill => (
-                <li key={skill}>
-                  {skill}
-                </li>
-              ))}
-            </ul>
+        <div className="row row-cols-1 row-cols-md-2 g-4 my-2">
+          <div className="col">
+            <div className="card shadow">
+              <div className="card-header text-center fs-5">
+                Front-end Proficiencies
+              </div>
+              <ul className="list-group list-group-flush">
+                {frontEndSkills.map(skill => (
+                  <li 
+                    key={skill}
+                    className="list-group-item"
+                  >
+                    {skill}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card shadow">
+              <div className="card-header text-center fs-5">
+                Back-end Proficiencies
+              </div>
+              <ul className="list-group list-group-flush">
+                {backEndSkills.map(skill => (
+                  <li 
+                    key={skill}
+                    className="list-group-item"
+                  >
+                    {skill}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
