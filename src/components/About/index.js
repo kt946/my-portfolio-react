@@ -13,7 +13,7 @@ function About() {
         </p>
       </div>
       <section className="py-4 custom-bg-color text-black">
-        <div className="container  pb-4">
+        <div className="container pb-4">
           <h2 className="section-title text-center border-bottom border-primary border-2 pb-2 mb-4">
             About Me
           </h2>

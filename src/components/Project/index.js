@@ -16,7 +16,7 @@ function Project(props) {
               className="card-img-top border-bottom" 
               alt={project.title}
             />
-            <div class="card-header">
+            <div className="card-header">
               <h4 className="card-title">{project.title}</h4>
               <h6 className="card-subtitle text-muted">{project.subtitle}</h6>
             </div>

@@ -69,9 +69,8 @@ section {
   min-height: calc(100vh - 54px - 56px);
 }
 
-.custom-container {
-  margin: auto;
-  width: 80%;
+.container {
+  transition: all ease-in-out 0.3s;
 }
 
 /* About Me section */
@@ -90,6 +89,15 @@ section {
 .portrait-image {
   border-radius: 50%;
   width: 300px;
+}
+
+/* Contact section */
+#contact-form {
+  width: 45rem;
+}
+
+.custom-transition {
+  transition: all ease-in-out 0.3s;
 }
 
 @media screen and (max-width: 768px) {
