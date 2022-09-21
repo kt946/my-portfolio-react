@@ -34,40 +34,36 @@ function Resume() {
             Download resume
           </a>
         </div>
-        <div className="row row-cols-1 row-cols-md-2 g-4 my-2">
-          <div className="col">
-            <div className="card shadow">
-              <div className="card-header text-center fs-5">
-                Front-end Proficiencies
-              </div>
-              <ul className="list-group list-group-flush">
-                {frontEndSkills.map(skill => (
-                  <li 
-                    key={skill}
-                    className="list-group-item"
-                  >
-                    {skill}
-                  </li>
-                ))}
-              </ul>
+        <div className="d-flex flex-column flex-md-row justify-content-evenly align-items-center align-items-md-start mt-4">
+          <div className="card shadow skill-card mb-4">
+            <div className="card-header text-center text-bg-primary fs-4 py-3">
+              Front-end Proficiencies
             </div>
+            <ul className="list-group list-group-flush">
+              {frontEndSkills.map(skill => (
+                <li 
+                  key={skill}
+                  className="list-group-item"
+                >
+                  {skill}
+                </li>
+              ))}
+            </ul>
           </div>
-          <div className="col">
-            <div className="card shadow">
-              <div className="card-header text-center fs-5">
-                Back-end Proficiencies
-              </div>
-              <ul className="list-group list-group-flush">
-                {backEndSkills.map(skill => (
-                  <li 
-                    key={skill}
-                    className="list-group-item"
-                  >
-                    {skill}
-                  </li>
-                ))}
-              </ul>
+          <div className="card shadow skill-card">
+            <div className="card-header text-center text-bg-primary fs-4 py-3">
+              Back-end Proficiencies
             </div>
+            <ul className="list-group list-group-flush">
+              {backEndSkills.map(skill => (
+                <li 
+                  key={skill}
+                  className="list-group-item"
+                >
+                  {skill}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

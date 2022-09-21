@@ -96,7 +96,7 @@ function Contact() {
               </div>
             )}
             <div className="d-flex justify-content-end">
-              <button type="submit" className="btn btn-primary rounded-pill px-4">
+              <button type="submit" className="btn btn-primary btn-lg rounded-pill px-4">
                 Submit
               </button>
             </div>

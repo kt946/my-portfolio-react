@@ -52,7 +52,7 @@ footer {
 
 /* Sections */
 section {
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 6rem;
 }
 
 .section-title {
@@ -93,16 +93,22 @@ section {
 
 /* Contact section */
 #contact-form {
-  width: 45rem;
+  width: 40rem;
 }
 
-.custom-transition {
-  transition: all ease-in-out 0.3s;
+/* Resume section */
+.skill-card {
+  width: 40%;
 }
+
 
 @media screen and (max-width: 768px) {
   .hero h2 {
     font-size: 8vw;
+  }
+
+  .skill-card {
+    width: 100%;
   }
 }
 
