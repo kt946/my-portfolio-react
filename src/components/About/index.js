@@ -17,24 +17,30 @@ function About() {
           <h2 className="section-title text-center border-bottom border-primary border-2 pb-2 mb-4">
             About Me
           </h2>
+          <p className="fs-4 text-center mb-4">
+            Who am I? You sure you want to know?
+          </p>
           <div className="d-flex flex-column flex-md-row fs-5">
             <div className="text-center mb-4">
               <img 
                 src={portraitPhoto}
                 alt="portrait"
-                className="portrait-image shadow"
+                className="portrait-image shadow border border-5 border-primary"
               />
             </div>
             <div className="ms-0 ms-md-5 custom-fs">
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem quo suscipit recusandae natus totam doloremque, hic vel, animi fugit nemo itaque sunt voluptatibus consequatur. Porro possimus repellendus debitis vel.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci ipsam facere ex rerum sed dolores repellendus rem culpa nulla veniam quam numquam sunt tempora quia, praesentium quaerat dolorem consequatur.
+                I'm a full stack web developer with a B.A. in Psychology from Rutgers University and a passion for technology, creativity, and learning.
+                I'm pursuing a certificate in Full Stack Web Development from the Rutgers Coding Bootcamp.
+                As a versatile quick learner and problem-solver, I'm able to collaborate with teams to develop projects with simple, elegant designs and robust databases. 
+                I'm eager to demonstrate my newly acquired skills and build innovative applications that help me grow as a developer and provide users with immersive web experiences.
               </p>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum consectetur dignissimos explicabo natus, blanditiis, omnis beatae illum quis aperiam ad quas veritatis amet aut alias culpa, dicta aliquid est! Amet!
+                When I'm not coding on my laptop, skimming through documentation, or searching Google for solutions to various issues and the meaning of life, 
+                I enjoy cooking, exercising, video games, playing guitar, and learning new skills and languages. 
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque earum accusamus nam molestiae autem excepturi error maxime.
+                Check out my projects and contact information. I'm happy to connect with you! 
               </p>
             </div>
           </div>

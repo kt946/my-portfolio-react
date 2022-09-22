@@ -16,17 +16,18 @@ function Resume() {
   const backEndSkills = [
     'AJAX',
     'APIs',
-    'Node.js',
+    'Node',
     'Object-Oriented Programming (OOP)',
     'Express',
     'REST',
     'SQL, MySQL, Sequelize',
     'Object-Relational Mapping (ORM)',
     'Model-View-Controller (MVC)',
+    'Handlebars',
     'NoSQL, MongoDb, Mongoose',
     'MERN',
+    'GitHub',
     'Heroku',
-    'GitHub'
   ];
 
   return(
