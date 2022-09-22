@@ -101,7 +101,6 @@ section {
   width: 40%;
 }
 
-
 @media screen and (max-width: 768px) {
   .hero h2 {
     font-size: 8vw;

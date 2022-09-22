@@ -12,8 +12,8 @@ function About() {
           A Full-Stack Web Developer.
         </p>
       </div>
-      <section className="py-4 custom-bg-color text-black">
-        <div className="container pb-4">
+      <section className="py-4 custom-bg-color text-black custom-height">
+        <div className="container">
           <h2 className="section-title text-center border-bottom border-primary border-2 pb-2 mb-4">
             About Me
           </h2>

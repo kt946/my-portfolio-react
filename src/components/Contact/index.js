@@ -40,7 +40,7 @@ function Contact() {
           Contact
         </h2>
         <p className="fs-4 text-center mb-2">
-          Thanks for visiting! Leave a message and I'll get back to you soon!
+          Want to connect? Leave a message and I'll get back to you soon!
         </p>
         <div className="fs-4 text-center d-flex flex-column flex-sm-row justify-content-center">
           <a 
@@ -95,8 +95,8 @@ function Contact() {
                 <p className="text-danger">{errorMessage}</p>
               </div>
             )}
-            <div className="d-flex justify-content-end">
-              <button type="submit" className="btn btn-primary btn-lg rounded-pill px-4">
+            <div className="d-flex">
+              <button type="submit" className="btn btn-primary btn-lg rounded-pill px-4 mx-auto">
                 Submit
               </button>
             </div>

@@ -26,10 +26,13 @@ function Resume() {
         <h2 className="section-title text-center border-bottom border-primary border-2 pb-2 mb-4">
           Resume
         </h2>
+        <p className="fs-4 text-center mb-4">
+          Thanks for visiting! Check out my resume and the skills I've picked up during my journey as a developer.
+        </p>
         <div className="d-flex justify-content-center">
           <a 
             href="/" 
-            className="btn btn-primary btn-lg rounded-pill"
+            className="btn btn-primary btn-lg rounded-pill "
           >
             Download resume
           </a>
@@ -39,7 +42,7 @@ function Resume() {
             <div className="card-header text-center text-bg-primary fs-4 py-3">
               Front-end Proficiencies
             </div>
-            <ul className="list-group list-group-flush">
+            <ul className="list-group list-group-flush text-center">
               {frontEndSkills.map(skill => (
                 <li 
                   key={skill}
@@ -54,7 +57,7 @@ function Resume() {
             <div className="card-header text-center text-bg-primary fs-4 py-3">
               Back-end Proficiencies
             </div>
-            <ul className="list-group list-group-flush">
+            <ul className="list-group list-group-flush text-center">
               {backEndSkills.map(skill => (
                 <li 
                   key={skill}
