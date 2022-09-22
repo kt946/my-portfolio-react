@@ -17,7 +17,7 @@ function About() {
           <h2 className="section-title text-center border-bottom border-primary border-2 pb-2 mb-4">
             About Me
           </h2>
-          <p className="fs-4 text-center mb-4">
+          <p className="fs-4 text-center mb-4 cm-font-heading">
             Who am I? You sure you want to know?
           </p>
           <div className="d-flex flex-column flex-md-row fs-5">

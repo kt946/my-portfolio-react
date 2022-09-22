@@ -12,7 +12,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Play', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+  font-family: 'Kanit', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -30,6 +30,22 @@ code {
 /* Header and Footer */
 h1 {
   font-family: 'Bebas Neue', cursive;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.cm-font-family {
+  font-family: 'Kanit', sans-serif;
+}
+
+.cm-font-heading {
+  font-family: 'Rubik', sans-serif;
 }
 
 header {

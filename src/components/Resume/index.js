@@ -36,7 +36,7 @@ function Resume() {
         <h2 className="section-title text-center border-bottom border-primary border-2 pb-2 mb-4">
           Resume
         </h2>
-        <p className="fs-4 text-center mb-4">
+        <p className="fs-4 text-center mb-4 cm-font-heading">
           Thanks for visiting! Check out my resume and the skills I've picked up during my journey as a developer.
         </p>
         <div className="d-flex justify-content-center">

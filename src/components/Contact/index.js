@@ -39,7 +39,7 @@ function Contact() {
         <h2 className="section-title text-center border-bottom border-primary border-2 pb-2 mb-4">
           Contact
         </h2>
-        <p className="fs-4 text-center mb-2">
+        <p className="fs-4 text-center mb-2 cm-font-heading">
           Want to connect? Leave a message and I'll get back to you soon!
         </p>
         <div className="fs-4 text-center d-flex flex-column flex-sm-row justify-content-center">
