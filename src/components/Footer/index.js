@@ -4,22 +4,22 @@ const footerLinks = [
   {
     name: 'Email',
     symbol: 'bi bi-envelope-fill',
-    link: '/'
+    link: 'mailto:ktang1151@gmail.com'
   },
   {
     name: 'GitHub',
     symbol: 'bi bi-github',
-    link: '/'
+    link: 'https://github.com/kt946'
   },
   {
     name: 'LinkedIn',
     symbol: 'bi bi-linkedin',
-    link: '/'
+    link: 'https://www.linkedin.com/in/kyle-tang-'
   },
   {
-    name: 'Stack Overflow',
+    name: 'Stack Oveflow',
     symbol: 'bi bi-stack-overflow',
-    link: '/'
+    link: 'https://stackoverflow.com/users/18778631/ktang'
   },
 ];
 

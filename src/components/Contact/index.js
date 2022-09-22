@@ -44,18 +44,18 @@ function Contact() {
         </p>
         <div className="fs-4 text-center d-flex flex-column flex-sm-row justify-content-center">
           <a 
-            href="/"
+            href="mailto:ktang1151@gmail.com"
             className="p-1 mx-3 text-decoration-none"
           >
             <i className="bi bi-envelope-fill me-2"></i>
-            test@test.com
+            ktang1151@gmail.com
           </a>
           <a 
-            href="/"
+            href="tel:732-261-7869"
             className="p-1 mx-3 text-decoration-none"
           >
             <i className="bi bi-telephone-fill me-2"></i>
-            555-555-5555
+            732-261-7869
           </a>
         </div>
         <div className="d-flex justify-content-center">

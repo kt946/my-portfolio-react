@@ -7,17 +7,26 @@ function Resume() {
     'JavaScript',
     'jQuery',
     'Responsive Design',
-    'React',
-    'Bootstrap'
+    'DOM API',
+    'Bootstrap',
+    'Bulma',
+    'React'
   ];
 
   const backEndSkills = [
+    'AJAX',
     'APIs',
-    'Node',
+    'Node.js',
+    'Object-Oriented Programming (OOP)',
     'Express',
-    'MySQL, Sequelize',
-    'MongoDb, Mongoose',
-    'REST'
+    'REST',
+    'SQL, MySQL, Sequelize',
+    'Object-Relational Mapping (ORM)',
+    'Model-View-Controller (MVC)',
+    'NoSQL, MongoDb, Mongoose',
+    'MERN',
+    'Heroku',
+    'GitHub'
   ];
 
   return(
@@ -31,7 +40,7 @@ function Resume() {
         </p>
         <div className="d-flex justify-content-center">
           <a 
-            href="/" 
+            href="https://drive.google.com/file/d/1r3HfYnQr1qtijQ7Kv8SudnAkat5uMETE/view?usp=sharing" 
             className="btn btn-primary btn-lg rounded-pill "
           >
             Download resume
