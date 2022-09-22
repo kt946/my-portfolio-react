@@ -23,9 +23,11 @@ function Project(props) {
             <div className="card-body">
               <p className="card-text">{project.description}</p>
             </div>
-            <div className="card-footer d-flex justify-content-between">
-              <a href={project.deployed} className="btn btn-primary">Deployed App</a>
-              <a href={project.repo} className="btn btn-success">GitHub Repository</a>
+            <div className="card-footer d-flex justify-content-between align-items-center">
+              <a href={project.deployed} className="btn btn-primary">Visit Website</a>
+              <a href={project.repo} className="fs-2">
+                <i className="bi bi-github"></i>
+              </a>
             </div>
           </div>
         </div>
