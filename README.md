@@ -24,7 +24,7 @@ To install this application on your local machine:
 ```
     node -v
 ```
-- Open a command-line interface (VS Code, Git Bash, etc.) and navigate to the directory containing the application's server.js.
+- Open a command-line interface (VS Code, Git Bash, etc.) and navigate to the root directory containing the application's package.json.
 - In the command-line, download the application's dependencies by typing: 
 ```
     npm install
