@@ -8,24 +8,24 @@ function Navigation(props) {
   } = props;
 
   return(
-    <nav id="nav" className="navbar fs-5">
-      <ul className="nav justify-content-end">
+    <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+      <ul className="navbar-nav">
         {categories.map((category) => (
           <li 
-            className="nav-item"
+            className="nav-item fs-5 d-flex justify-content-end"
             key={category.name}
           >
             <a
               href={`#${category.id}`}
               onClick={() => handlePageChange(category.name)}
-              className={`nav-link p-1 mx-2 ${currentPage === category.name && "text-white"}`}
+              className={`nav-link p-1 mx-3 ${currentPage === category.name && "text-white"}`}
             >
               {category.name}
             </a>
           </li>
         ))}
       </ul>
-    </nav>
+    </div>
   );
 }
 

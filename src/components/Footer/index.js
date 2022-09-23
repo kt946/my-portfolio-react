@@ -25,7 +25,7 @@ const footerLinks = [
 
 function Footer() {
   return(
-    <footer id="footer">
+    <footer id="footer" className="d-flex flex-column justify-content-center text-white">
       <ul className="fs-2 nav justify-content-center">
         {footerLinks.map((footerLink) => (
           <li 
@@ -41,6 +41,9 @@ function Footer() {
           </li>
         ))}
       </ul>
+      <p className="text-center">
+        &copy; 2022 Kyle Tang
+      </p>
     </footer>
   );
 }

@@ -32,6 +32,14 @@ h1 {
   font-family: 'Bebas Neue', cursive;
 }
 
+.navbar-brand {
+  font-size: 2rem;
+}
+
+nav {
+  min-height: 48px;
+}
+
 h2,
 h3,
 h4,
@@ -51,6 +59,10 @@ h6 {
 header {
   background-color: rgb(0, 0, 0, 0.85);
   backdrop-filter: blur(2px);
+}
+
+nav {
+  transition: all ease-in-out 0.3s;
 }
 
 footer {
@@ -82,7 +94,7 @@ section {
 }
 
 .custom-height {
-  min-height: calc(100vh - 54px - 56px);
+  min-height: calc(100vh - 64px - 96px);
 }
 
 .container {
@@ -91,7 +103,7 @@ section {
 
 /* About Me section */
 .hero {
-  min-height: calc(100vh - 54px);
+  min-height: calc(100vh - 64px);
 }
 
 .hero h2 {
