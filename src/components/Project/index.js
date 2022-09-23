@@ -4,7 +4,7 @@ function Project(props) {
   const { projects = [] } = props;
   
   return(
-    <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 animate__animated animate__fadeIn animate__delay-1s">
       {projects.map((project) => (
         <div 
           className="col"

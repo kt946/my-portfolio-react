@@ -36,7 +36,7 @@ function App() {
   };
 
   useEffect(() => {
-    document.title = `My Portfolio - ${currentPage}`;
+    document.title = `Kyle Tang - ${currentPage}`;
   }, [currentPage]);
 
   const handlePageChange = page => setCurrentPage(page);

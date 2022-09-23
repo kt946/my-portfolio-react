@@ -5,22 +5,22 @@ function About() {
   return(
     <section id="about" className="text-white">
       <div className="hero d-flex flex-column justify-content-center align-items-center">
-        <h2 className="text-center mx-4">
+        <h2 className="text-center mx-4 animate__animated animate__fadeIn">
           Hello world! I'm Kyle Tang.
         </h2>
-        <p className="fs-1 text-center">
+        <p className="fs-1 text-center animate__animated animate__fadeInDown animate__delay-1s">
           A Full-Stack Web Developer.
         </p>
       </div>
       <section className="py-4 custom-bg-color text-black custom-height">
         <div className="container">
-          <h2 className="section-title text-center border-bottom border-2 pb-2 mb-4">
+          <h2 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
             About Me
           </h2>
-          <p className="fs-4 text-center mb-4 cm-font-heading">
+          <p className="fs-4 text-center mb-4 cm-font-heading animate__animated animate__fadeInDown">
             Who am I? You sure you want to know?
           </p>
-          <div className="d-flex flex-column flex-md-row fs-5">
+          <div className="d-flex flex-column flex-md-row fs-5 animate__animated animate__fadeIn animate__delay-1s">
             <div className="text-center mb-4">
               <img 
                 src={portraitPhoto}

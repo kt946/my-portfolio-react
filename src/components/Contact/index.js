@@ -36,13 +36,13 @@ function Contact() {
   return(
     <section id="contact" className="py-4 custom-bg-color custom-height">
       <div className="container pb-4">
-        <h2 className="section-title text-center border-bottom border-2 pb-2 mb-4">
+        <h2 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
           Contact
         </h2>
-        <p className="fs-4 text-center mb-2 cm-font-heading">
+        <p className="fs-4 text-center mb-2 cm-font-heading animate__animated animate__fadeInDown">
           Want to connect? Leave a message and I'll get back to you soon!
         </p>
-        <div className="fs-4 text-center d-flex flex-column flex-sm-row justify-content-center">
+        <div className="fs-4 text-center d-flex flex-column flex-sm-row justify-content-center animate__animated animate__fadeIn animate__delay-1s">
           <a 
             href="mailto:ktang1151@gmail.com"
             className="p-1 mx-3 text-decoration-none cm-primary-color"
@@ -58,7 +58,7 @@ function Contact() {
             732-261-7869
           </a>
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center animate__animated animate__fadeIn animate__delay-1s">
           <form id="contact-form" className="rounded my-2 mx-3 p-4 bg-white shadow" onSubmit={handleSubmit}>
             <div className="mb-3">
               <label htmlFor="name" className="form-label fs-5">Name</label>

@@ -33,13 +33,13 @@ function Resume() {
   return(
     <section id="resume" className="py-4 custom-bg-color custom-height">
       <div className="container pb-4">
-        <h2 className="section-title text-center border-bottom border-2 pb-2 mb-4">
+        <h2 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
           Resume
         </h2>
-        <p className="fs-4 text-center mb-4 cm-font-heading">
+        <p className="fs-4 text-center mb-4 cm-font-heading animate__animated animate__fadeInDown">
           Thanks for visiting! Check out my resume and the skills I've picked up during my journey as a developer.
         </p>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center animate__animated animate__fadeIn animate__delay-1s">
           <a 
             href="https://drive.google.com/file/d/1r3HfYnQr1qtijQ7Kv8SudnAkat5uMETE/view?usp=sharing" 
             className="btn text-white cm-button-color btn-lg rounded-pill"
@@ -47,7 +47,7 @@ function Resume() {
             Download resume
           </a>
         </div>
-        <div className="d-flex flex-column flex-md-row justify-content-evenly align-items-center align-items-md-start mt-4">
+        <div className="d-flex flex-column flex-md-row justify-content-evenly align-items-center align-items-md-start mt-4 animate__animated animate__fadeIn animate__delay-1s">
           <div className="card shadow skill-card mb-4">
             <div className="card-header text-center custom-color fs-4 py-3">
               Front-end Proficiencies
