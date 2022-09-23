@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Navigation(props) {
+  // destructure categores, currentPage, handlePageChange function from props
   const {
     categories = [],
     currentPage,
@@ -8,8 +9,10 @@ function Navigation(props) {
   } = props;
 
   return(
-    <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+    // section for Navigation component with categories
+    <div className="collapse navbar-collapse justify-content-end" id="mobile-menu">
       <ul className="navbar-nav">
+        {/* map array of categories from props */}
         {categories.map((category) => (
           <li 
             className="nav-item fs-5 d-flex justify-content-end"
@@ -18,6 +21,7 @@ function Navigation(props) {
             <a
               href={`#${category.id}`}
               onClick={() => handlePageChange(category.name)}
+              // highlight current page
               className={`nav-link p-1 mx-3 ${currentPage === category.name && "selected-color"}`}
             >
               {category.name}

@@ -3,6 +3,7 @@ import Navigation from '../Navigation';
 
 function Header({ categories, currentPage, handlePageChange }) {
   return(
+    // section for Header component
     <header className="navbar navbar-expand-lg navbar-dark sticky-top">
         <nav className="container-fluid">
           <h1 className="mb-0">
@@ -10,17 +11,19 @@ function Header({ categories, currentPage, handlePageChange }) {
               Kyle Tang
             </a>
           </h1>
+          {/* button menu toggle for mobile screen sizes */}
           <button 
             className="navbar-toggler text-white" 
             type="button" 
             data-bs-toggle="collapse" 
-            data-bs-target="#navbarTogglerDemo02" 
-            aria-controls="navbarTogglerDemo02" 
+            data-bs-target="#mobile-menu" 
+            aria-controls="mobile-menu" 
             aria-expanded="false" 
             aria-label="Toggle navigation"
           >
             <i className="navbar-toggler-icon"></i>
           </button>
+          {/* Navigation component */}
           <Navigation 
             categories={categories} 
             currentPage={currentPage} 
