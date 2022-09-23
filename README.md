@@ -68,7 +68,7 @@ The following images demonstrate the application's appearance and functionality.
 
 - [Link to deployed application](https://kt946.github.io/my-portfolio-react/)
 
-- [Link to GitHub repository](https://github.com/kt946/just-another-blue-text-editor-PWA)
+- [Link to GitHub repository](https://github.com/kt946/my-portfolio-react)
 
 ## License
 
