@@ -40,6 +40,13 @@ To view this portfolio, navigate to the Links section and click on the Link to t
 
 ## Screenshots
 
+![about-me](https://user-images.githubusercontent.com/103476893/191889293-4dd4887d-249e-4faf-8443-b5ab4e82a368.png)
+
+![portfolio](https://user-images.githubusercontent.com/103476893/191889299-75abb382-8972-4eed-93a1-543000009c9e.png)
+
+![contact](https://user-images.githubusercontent.com/103476893/191889306-ec298d18-1476-474e-9bd2-5f19b60537e9.png)
+
+![resume](https://user-images.githubusercontent.com/103476893/191889317-345346d0-2b13-4b8a-9b20-d3c9211b5a5b.png)
 
 ## Technologies Used
 
