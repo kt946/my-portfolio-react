@@ -36,7 +36,7 @@ function Contact() {
   return(
     <section id="contact" className="py-4 custom-bg-color custom-height">
       <div className="container pb-4">
-        <h2 className="section-title text-center border-bottom border-primary border-2 pb-2 mb-4">
+        <h2 className="section-title text-center border-bottom border-2 pb-2 mb-4">
           Contact
         </h2>
         <p className="fs-4 text-center mb-2 cm-font-heading">
@@ -45,14 +45,14 @@ function Contact() {
         <div className="fs-4 text-center d-flex flex-column flex-sm-row justify-content-center">
           <a 
             href="mailto:ktang1151@gmail.com"
-            className="p-1 mx-3 text-decoration-none"
+            className="p-1 mx-3 text-decoration-none cm-primary-color"
           >
             <i className="bi bi-envelope-fill me-2"></i>
             ktang1151@gmail.com
           </a>
           <a 
             href="tel:732-261-7869"
-            className="p-1 mx-3 text-decoration-none"
+            className="p-1 mx-3 text-decoration-none cm-primary-color"
           >
             <i className="bi bi-telephone-fill me-2"></i>
             732-261-7869
@@ -96,7 +96,7 @@ function Contact() {
               </div>
             )}
             <div className="d-flex">
-              <button type="submit" className="btn btn-primary btn-lg rounded-pill px-4 mx-auto">
+              <button type="submit" className="btn text-white cm-button-color btn-lg rounded-pill px-4 mx-auto">
                 Submit
               </button>
             </div>

@@ -10,8 +10,16 @@ function Header({ categories, currentPage, handlePageChange }) {
               Kyle Tang
             </a>
           </h1>
-          <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <i className="bi bi-list"></i>
+          <button 
+            className="navbar-toggler text-white" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarTogglerDemo02" 
+            aria-controls="navbarTogglerDemo02" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation"
+          >
+            <i className="navbar-toggler-icon"></i>
           </button>
           <Navigation 
             categories={categories} 

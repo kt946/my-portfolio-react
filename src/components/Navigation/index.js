@@ -18,7 +18,7 @@ function Navigation(props) {
             <a
               href={`#${category.id}`}
               onClick={() => handlePageChange(category.name)}
-              className={`nav-link p-1 mx-3 ${currentPage === category.name && "text-white"}`}
+              className={`nav-link p-1 mx-3 ${currentPage === category.name && "selected-color"}`}
             >
               {category.name}
             </a>

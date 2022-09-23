@@ -25,7 +25,7 @@ const footerLinks = [
 
 function Footer() {
   return(
-    <footer id="footer" className="d-flex flex-column justify-content-center text-white">
+    <footer id="footer" className="bg-black d-flex flex-column justify-content-center text-white">
       <ul className="fs-2 nav justify-content-center">
         {footerLinks.map((footerLink) => (
           <li 

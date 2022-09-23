@@ -14,7 +14,7 @@ function About() {
       </div>
       <section className="py-4 custom-bg-color text-black custom-height">
         <div className="container">
-          <h2 className="section-title text-center border-bottom border-primary border-2 pb-2 mb-4">
+          <h2 className="section-title text-center border-bottom border-2 pb-2 mb-4">
             About Me
           </h2>
           <p className="fs-4 text-center mb-4 cm-font-heading">
@@ -25,7 +25,7 @@ function About() {
               <img 
                 src={portraitPhoto}
                 alt="portrait"
-                className="portrait-image shadow border border-5 border-primary"
+                className="portrait-image shadow border border-5"
               />
             </div>
             <div className="ms-0 ms-md-5 custom-fs">
