@@ -7,7 +7,10 @@ function Header({ categories, currentPage, handlePageChange }) {
     <header className="navbar navbar-expand-lg navbar-dark sticky-top">
         <nav className="container-fluid">
           <h1 className="mb-0">
-            <a href="/" className="navbar-brand fs-2 mx-3">
+            <a 
+              href="https://kt946.github.io/my-portfolio-react/" 
+              className="navbar-brand fs-2 mx-3"
+            >
               Kyle Tang
             </a>
           </h1>
