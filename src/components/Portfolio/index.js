@@ -70,7 +70,19 @@ function Portfolio() {
           Here you will find a collection of some of my works.
         </p>
         {/* Project component */}
-        <Project projects={projects}></Project>
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 animate__animated animate__fadeIn animate__delay-1s">
+          {projects.map((project) => (
+            <Project 
+              key={project.id} 
+              title={project.title}
+              id={project.id} 
+              subtitle={project.subtitle}
+              description={project.description}
+              deployed={project.deployed}
+              repo={project.repo}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

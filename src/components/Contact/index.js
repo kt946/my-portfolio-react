@@ -60,7 +60,7 @@ function Contact() {
           </a>
           {/* Link to phone number */}
           <a 
-            href="tel:732-261-7869"
+            href="tel:7322617869"
             className="p-1 mx-3 text-decoration-none cm-primary-color"
           >
             <i className="bi bi-telephone-fill me-2"></i>

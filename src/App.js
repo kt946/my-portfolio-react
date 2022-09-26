@@ -59,6 +59,7 @@ function App() {
         {/* render pages here */}
         {renderPage()}
       </main>
+      {/* Footer component */}
       <Footer />
     </div>
   );
