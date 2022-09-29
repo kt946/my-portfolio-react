@@ -53,7 +53,7 @@ function Contact() {
           {/* Link to email */}
           <a 
             href="mailto:ktang1151@gmail.com"
-            className="p-1 mx-3 text-decoration-none cm-primary-color"
+            className="p-1 mx-3 text-decoration-none text-primary"
           >
             <i className="bi bi-envelope-fill me-2"></i>
             ktang1151@gmail.com
@@ -61,7 +61,7 @@ function Contact() {
           {/* Link to phone number */}
           <a 
             href="tel:7322617869"
-            className="p-1 mx-3 text-decoration-none cm-primary-color"
+            className="p-1 mx-3 text-decoration-none text-primary"
           >
             <i className="bi bi-telephone-fill me-2"></i>
             732-261-7869
@@ -110,7 +110,7 @@ function Contact() {
               </div>
             )}
             <div className="d-flex">
-              <button type="submit" className="btn text-white cm-button-color btn-lg rounded-pill px-4 mx-auto">
+              <button type="submit" className="btn btn-primary btn-lg rounded-pill px-4 mx-auto">
                 Submit
               </button>
             </div>

@@ -22,29 +22,6 @@ body {
   background-size: cover;
 }
 
-.custom-color {
-  color: white;
-  background-color: var(--primary-color);
-}
-
-.cm-button-color {
-  color: white;
-  background-color: var(--primary-color) !important;
-}
-
-.cm-button-color:hover {
-  background-color: var(--glow-color) !important;
-}
-
-.cm-primary-color {
-  color: var(--primary-color);
-  transition: all ease-in-out 0.2s;
-}
-
-.cm-primary-color:hover {
-  color: var(--glow-color);
-}
-
 /* Header and Footer */
 h1 {
   font-family: 'Bebas Neue', cursive;
@@ -111,7 +88,7 @@ section {
 
 .section-title {
   font-size: 3rem;
-  border-color: var(--secondary-color) !important;
+  border-color: var(--bs-secondary) !important;
 }
 
 .custom-bg-color {
@@ -143,19 +120,10 @@ section {
 
 .portrait-image {
   border-radius: 50%;
-  border-color: var(--primary-color) !important;
   width: 300px;
 }
 
 /* Projects */
-.card {
-  border-color: var(--primary-color) !important;
-}
-
-.card-header {
-  background-color: var(--primary-color);
-}
-
 .card-subtitle {
   color: rgb(190, 190, 190);
 }

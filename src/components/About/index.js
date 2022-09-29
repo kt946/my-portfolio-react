@@ -29,7 +29,7 @@ function About() {
               <img 
                 src={portraitPhoto}
                 alt="portrait"
-                className="portrait-image shadow border border-5"
+                className="portrait-image shadow border border-5 border-primary"
               />
             </div>
             {/* Bio */}

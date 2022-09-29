@@ -46,7 +46,7 @@ function Resume() {
           {/* button for downloading resume */}
           <a 
             href="https://drive.google.com/file/d/1r3HfYnQr1qtijQ7Kv8SudnAkat5uMETE/view?usp=sharing" 
-            className="btn text-white cm-button-color btn-lg rounded-pill"
+            className="btn btn-primary btn-lg rounded-pill"
           >
             Download resume
           </a>
@@ -54,7 +54,7 @@ function Resume() {
         <div className="d-flex flex-column flex-md-row justify-content-evenly align-items-center align-items-md-start mt-4 animate__animated animate__fadeIn animate__delay-1s">
           {/* card for displaying front-end skills */}
           <div className="card shadow skill-card mb-4">
-            <div className="card-header text-center custom-color fs-4 py-3">
+            <div className="card-header text-center text-white bg-primary fs-4 py-3">
               Front-end Proficiencies
             </div>
             <ul className="list-group list-group-flush text-center">
@@ -71,7 +71,7 @@ function Resume() {
           </div>
           {/* card for displaying back-end skills */}
           <div className="card shadow skill-card">
-            <div className="card-header text-center custom-color fs-4 py-3">
+            <div className="card-header text-center text-white bg-primary fs-4 py-3">
               Back-end Proficiencies
             </div>
             <ul className="list-group list-group-flush text-center">
