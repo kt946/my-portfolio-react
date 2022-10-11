@@ -49,27 +49,9 @@ function Contact() {
         <p className="fs-4 text-center mb-2 cm-font-heading animate__animated animate__fadeInDown">
           Want to connect? Leave a message and I'll get back to you soon!
         </p>
-        <div className="fs-4 text-center d-flex flex-column flex-sm-row justify-content-center animate__animated animate__fadeIn animate__delay-1s">
-          {/* Link to email */}
-          <a 
-            href="mailto:ktang1151@gmail.com"
-            className="p-1 mx-3 text-decoration-none text-primary"
-          >
-            <i className="bi bi-envelope-fill me-2"></i>
-            ktang1151@gmail.com
-          </a>
-          {/* Link to phone number */}
-          <a 
-            href="tel:7322617869"
-            className="p-1 mx-3 text-decoration-none text-primary"
-          >
-            <i className="bi bi-telephone-fill me-2"></i>
-            732-261-7869
-          </a>
-        </div>
         {/* contact form */}
         <div className="d-flex justify-content-center animate__animated animate__fadeIn animate__delay-1s">
-          <form id="contact-form" className="rounded my-2 mx-3 p-4 bg-white shadow" onSubmit={handleSubmit}>
+          <form id="contact-form" className="rounded mx-3 p-4 bg-white shadow" onSubmit={handleSubmit}>
             {/* name */}
             <div className="mb-3">
               <label htmlFor="name" className="form-label fs-5">Name</label>
@@ -110,7 +92,7 @@ function Contact() {
               </div>
             )}
             <div className="d-flex">
-              <button type="submit" className="btn btn-primary btn-lg rounded-pill px-4 mx-auto">
+              <button type="submit" className="btn btn-primary rounded-pill px-4 mx-auto">
                 Submit
               </button>
             </div>

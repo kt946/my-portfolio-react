@@ -48,14 +48,14 @@ function App() {
   const handlePageChange = page => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="app-container d-flex flex-column">
       {/* Header component */}
       <Header 
         categories={categories}
         currentPage={currentPage}
         handlePageChange={handlePageChange} 
       />
-      <main className="custom-height">
+      <main>
         {/* render pages here */}
         {renderPage()}
       </main>
