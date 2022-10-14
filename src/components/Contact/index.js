@@ -49,6 +49,24 @@ function Contact() {
         <p className="fs-4 text-center mb-2 cm-font-heading animate__animated animate__fadeInDown">
           Want to connect? Leave a message and I'll get back to you soon!
         </p>
+        <div className="fs-4 text-center d-flex flex-column flex-sm-row justify-content-center animate__animated animate__fadeIn animate__delay-1s">
+          {/* Link to email */}
+          <a 
+            href="mailto:ktang1151@gmail.com"
+            className="p-1 mx-3 text-decoration-none text-primary"
+          >
+            <i className="bi bi-envelope-fill me-2"></i>
+            ktang1151@gmail.com
+          </a>
+          {/* Link to Linked In */}
+          <a 
+            href="https://www.linkedin.com/in/kyle-tang-"
+            className="p-1 mx-3 text-decoration-none text-primary"
+          >
+            <i className="bi bi-linkedin me-2"></i>
+            LinkedIn
+          </a>
+        </div>
         {/* contact form */}
         <div className="d-flex justify-content-center animate__animated animate__fadeIn animate__delay-1s">
           <form id="contact-form" className="rounded mx-3 p-4 bg-white shadow" onSubmit={handleSubmit}>

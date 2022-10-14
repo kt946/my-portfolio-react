@@ -22,7 +22,7 @@ function Project(props) {
           className="card-top"
         >
           <img 
-            src={require(`../../assets/images/${id}.png`)}
+            src={require(`../../assets/images/${id}`)}
             className="card-img-top" 
             alt={`Screenshot of ${title}`}
           />

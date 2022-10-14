@@ -5,8 +5,19 @@ function Portfolio() {
   // array of projects with title, id, subtitle, description, and links to deployed application and github repository
   const [projects] = useState([
     {
+      title: 'CodeFlow',
+      id: 'codeflow.png',
+      subtitle: 'MERN (MongoDB, Express, React, Node), JavaScript, GraphQL, Mongoose ODM, JWT, Tagify, Bootstrap',
+      description: `CodeFlow is an interactive MERN Stack SPA application that gives developers 
+      a creative social hub to show off project ideas through blog posts as well as comment and like replies from other developers
+      through nested comments.
+      `,
+      deployed: 'https://code-flow-app.herokuapp.com/',
+      repo: 'https://github.com/cnohilly/codeflow'
+    },
+    {
       title: 'Watch It Later',
-      id: 'watch-it-later',
+      id: 'watch-it-later.png',
       subtitle: 'Node, MySQL, Sequelize, Handlebars, Bulma, MVC, TMDB API',
       description: `A full-stack app to search for movies and TV shows. 
         In addition to looking up movie information, users are able to create accounts to add movies to 
@@ -16,7 +27,7 @@ function Portfolio() {
     },
     {
       title: 'Movie TV Watchlist',
-      id: 'movie-tv-watchlist',
+      id: 'movie-tv-watchlist.png',
       subtitle: 'HTML, CSS, JavaScript, Bulma, TMDB API',
       description: `Looking for something to watch? 
         Use this app to search for movies and TV shows through the TMDB's API! 
@@ -26,7 +37,7 @@ function Portfolio() {
     },
     {
       title: 'Weather Dashboard',
-      id: 'weather-dashboard',
+      id: 'weather-dashboard.png',
       subtitle: 'HTML, CSS, JavaScript, Bootstrap, OpenWeather API',
       description: `An app to search for the current weather and 5-day forecast in cities using the OpenWeather One Call API.`,
       deployed: 'https://kt946.github.io/weather-dashboard/',
@@ -34,7 +45,7 @@ function Portfolio() {
     },
     {
       title: 'The Epic Tech Blog',
-      id: 'the-epic-tech-blog',
+      id: 'the-epic-tech-blog.png',
       subtitle: 'Node, MySQL, Sequelize, Handlebars, Bootstrap, MVC',
       description: `A CMS-style blog site using the MVC paradigm for discussing technology through blog posts and comments.`,
       deployed: 'https://sheltered-mesa-54132.herokuapp.com/',
@@ -42,7 +53,7 @@ function Portfolio() {
     },
     {
       title: 'Pizza Hunt',
-      id: 'pizza-hunt',
+      id: 'pizza-hunt.png',
       subtitle: 'Node, NoSQL, MongoDB, Mongoose',
       description: `Hungry for some pizza? Check out Pizza Hunt, an app that uses NoSQL to store pizza recipies and user comments.`,
       deployed: 'https://pizza-hunt-13648.herokuapp.com/',
@@ -50,7 +61,7 @@ function Portfolio() {
     },
     {
       title: 'Taskmaster Pro',
-      id: 'taskmaster-pro',
+      id: 'taskmaster-pro.png',
       subtitle: 'HTML, CSS, JavaScript, jQuery, Bootstrap',
       description: `Got a busy week ahead? Taskmaster Pro, a task-management application, can help you 
         organize and save your tasks and due dates all from your local browser!`,
