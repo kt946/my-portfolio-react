@@ -46,14 +46,14 @@ function Contact() {
         <h2 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
           Contact
         </h2>
-        <p className="fs-4 mb-2 text-center cm-font-heading animate__animated animate__fadeInDown">
+        <p className="fs-3 mb-4 text-center cm-font-heading animate__animated animate__fadeInDown">
           Want to connect? Leave a message and I'll get back to you soon!
         </p>
-        <div className="fs-4 mb-2 text-center d-flex flex-column flex-sm-row justify-content-center animate__animated animate__fadeIn animate__delay-1s">
+        <div className="fs-4 mb-4 text-center d-flex flex-column flex-sm-row justify-content-center animate__animated animate__fadeIn animate__delay-1s">
           {/* Link to email */}
           <a 
             href="mailto:ktang1151@gmail.com"
-            className="p-1 mx-3 text-decoration-none link-info"
+            className="mx-3 text-decoration-none link-info"
           >
             <i className="bi bi-envelope-fill me-2"></i>
             ktang1151@gmail.com
@@ -61,7 +61,7 @@ function Contact() {
           {/* Link to Linked In */}
           <a 
             href="https://www.linkedin.com/in/kyle-tang-"
-            className="p-1 mx-3 text-decoration-none link-info"
+            className="mx-3 text-decoration-none link-info"
           >
             <i className="bi bi-linkedin me-2"></i>
             LinkedIn
@@ -69,7 +69,7 @@ function Contact() {
         </div>
         {/* contact form */}
         <div className="d-flex justify-content-center animate__animated animate__fadeIn animate__delay-1s">
-          <form id="contact-form" className="rounded mx-3 p-4 shadow" onSubmit={handleSubmit}>
+          <form id="contact-form" className="rounded p-4 shadow" onSubmit={handleSubmit}>
             {/* name */}
             <div className="mb-3">
               <label htmlFor="name" className="form-label fs-5">Name</label>

@@ -186,7 +186,7 @@ section {
 }
 
 /* Projects */
-.card, form {
+.card, form, .card .list-group-item {
   background: var(--dark-card-color);
 }
 

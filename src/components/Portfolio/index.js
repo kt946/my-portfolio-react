@@ -75,7 +75,7 @@ function Portfolio() {
         <h2 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
           Portfolio
         </h2>
-        <p className="fs-4 text-center mb-4 cm-font-heading animate__animated animate__fadeInDown">
+        <p className="fs-3 text-center mb-4 cm-font-heading animate__animated animate__fadeInDown">
           Here you will find a collection of some of my works.
         </p>
         {/* Project component */}

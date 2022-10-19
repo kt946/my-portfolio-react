@@ -18,12 +18,7 @@ function Footer() {
       name: 'LinkedIn',
       symbol: 'bi bi-linkedin',
       link: 'https://www.linkedin.com/in/kyle-tang-'
-    },
-    {
-      name: 'Stack Oveflow',
-      symbol: 'bi bi-stack-overflow',
-      link: 'https://stackoverflow.com/users/18778631/ktang'
-    },
+    }
   ];
 
   return(
