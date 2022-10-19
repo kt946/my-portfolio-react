@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio-react/static/css/main.3692a899.css",
-    "main.js": "/my-portfolio-react/static/js/main.a4d89d69.js",
+    "main.js": "/my-portfolio-react/static/js/main.ceefe95a.js",
     "static/js/787.fe039db8.chunk.js": "/my-portfolio-react/static/js/787.fe039db8.chunk.js",
     "static/media/watch-it-later.png": "/my-portfolio-react/static/media/watch-it-later.920c9e15360e89fd0ce5.png",
     "static/media/movie-tv-watchlist.png": "/my-portfolio-react/static/media/movie-tv-watchlist.915ab59fdea1d9fecd62.png",
@@ -16,11 +16,11 @@
     "static/media/logo512.png": "/my-portfolio-react/static/media/logo512.ec979d35c19d0de0199c.png",
     "index.html": "/my-portfolio-react/index.html",
     "main.3692a899.css.map": "/my-portfolio-react/static/css/main.3692a899.css.map",
-    "main.a4d89d69.js.map": "/my-portfolio-react/static/js/main.a4d89d69.js.map",
+    "main.ceefe95a.js.map": "/my-portfolio-react/static/js/main.ceefe95a.js.map",
     "787.fe039db8.chunk.js.map": "/my-portfolio-react/static/js/787.fe039db8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3692a899.css",
-    "static/js/main.a4d89d69.js"
+    "static/js/main.ceefe95a.js"
   ]
 }
