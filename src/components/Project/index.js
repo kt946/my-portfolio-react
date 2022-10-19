@@ -43,7 +43,7 @@ function Project(props) {
         </div>
         <div className="card-footer bg-primary d-flex justify-content-between align-items-center">
           {/* link to deployed application */}
-          <a href={deployed} className="btn custom-btn text-white rounded-pill">Visit Website</a>
+          <a href={deployed} className="btn custom-btn rounded-pill">Visit Website</a>
           {/* link to github repository */}
           <a href={repo} className="fs-1 text-white">
             <i className="bi bi-github"></i>

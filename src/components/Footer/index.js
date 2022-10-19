@@ -29,7 +29,7 @@ function Footer() {
   return(
     // section for Footer component
     <footer id="footer" className="mt-auto bg-black d-flex flex-column justify-content-center text-white">
-      <ul className="fs-2 nav justify-content-center">
+      <ul className="fs-2 nav justify-content-center mt-2">
         {/* map array of footer links */}
         {footerLinks.map((footerLink) => (
           <li 

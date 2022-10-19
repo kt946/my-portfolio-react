@@ -22,7 +22,7 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #32383d;
+  background: #27293d;
 }
 
 /* Handle */
@@ -138,7 +138,7 @@ section {
 }
 
 .custom-height {
-  min-height: calc(100vh - 64px - 96px);
+  min-height: calc(100vh - 64px - 104px);
 }
 
 .container {
@@ -186,7 +186,7 @@ section {
 }
 
 /* Projects */
-.card {
+.card, form {
   background: var(--dark-card-color);
 }
 
@@ -203,6 +203,10 @@ section {
 /* Contact section */
 #contact-form {
   width: 40rem;
+}
+
+.form-control:focus {
+  border-color: var(--bs-info) !important;
 }
 
 /* Resume section */
