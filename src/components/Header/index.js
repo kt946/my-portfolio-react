@@ -1,38 +1,46 @@
 import React from 'react';
 import Navigation from '../Navigation';
+import Logo from '../../assets/images/logo512.png'
 
 function Header({ categories, currentPage, handlePageChange }) {
   return(
     // section for Header component
-    <header className="navbar navbar-expand-lg navbar-dark sticky-top">
-        <nav className="container-fluid">
-          <h1 className="mb-0">
-            <a 
-              href="/" 
-              className="navbar-brand fs-2 mx-3"
-            >
-              Kyle Tang
-            </a>
-          </h1>
-          {/* button menu toggle for mobile screen sizes */}
-          <button 
-            className="navbar-toggler text-white" 
-            type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#mobile-menu" 
-            aria-controls="mobile-menu" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation"
-          >
-            <i className="navbar-toggler-icon"></i>
-          </button>
-          {/* Navigation component */}
-          <Navigation 
-            categories={categories} 
-            currentPage={currentPage} 
-            handlePageChange={handlePageChange}
+    <header className="navbar navbar-expand-lg navbar-dark sticky-top py-1">
+      <nav className="container-fluid">
+        <a 
+          href="/" 
+          className="navbar-brand d-flex align-items-center p-0 mx-2"
+        >
+          <img
+            src={Logo}
+            width="30"
+            height="30"
+            className="d-inline-block align-text-top me-2"
+            alt="Portfolio logo"
           />
-        </nav>
+          <div className="mt-1">
+            Kyle Tang
+          </div>
+        </a>
+        {/* button menu toggle for mobile screen sizes */}
+        <button 
+          className="navbar-toggler text-white" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#mobile-menu" 
+          aria-controls="mobile-menu" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation"
+        >
+          <i className="navbar-toggler-icon"></i>
+        </button>
+        {/* Navigation component */}
+        <Navigation 
+          categories={categories} 
+          currentPage={currentPage} 
+          handlePageChange={handlePageChange}
+        />
+      </nav>
     </header>
   );
 }

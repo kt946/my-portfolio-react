@@ -49,18 +49,17 @@ body {
 }
 
 /* Header and Footer */
-h1 {
-  font-family: 'Bebas Neue', cursive;
-}
 
 .navbar-brand {
   font-size: 2rem;
+  font-family: 'Bebas Neue', cursive;
 }
 
 nav {
   min-height: 48px;
 }
 
+h1,
 h2,
 h3,
 h4,
@@ -138,7 +137,7 @@ section {
 }
 
 .custom-height {
-  min-height: calc(100vh - 64px - 104px);
+  min-height: calc(100vh - 60px - 104px);
 }
 
 .container {
