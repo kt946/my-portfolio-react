@@ -1,7 +1,6 @@
 :root {
-  --primary-color: #003566;
   --glow-color: #0A7AEA;
-  --dark-bg-color: #1e1e2f;
+  --dark-bg-color: #171725;
   --dark-card-color: #27293d;
   --paragraph-color: #c2c9d1;
 }
@@ -84,12 +83,9 @@ header {
   backdrop-filter: blur(2px);
 }
 
-nav {
-  transition: all ease-in-out 0.3s;
-}
-
 .nav-link {
   color: rgb(190, 190, 190);
+  transition: all ease-in-out 0.3s;
 }
 
 .nav-link:hover {
@@ -126,6 +122,19 @@ section {
 
 .custom-text-color {
  color: var(--paragraph-color);
+}
+
+.custom-btn {
+  color: #ffffff;
+  background: #1d8cf8;
+  background-image: linear-gradient(to bottom left,#1d8cf8,#3358f4,#1d8cf8);
+  background-size: 200% 200%;
+  background-position: 100% 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.custom-btn:hover {
+  background-position: 0 100%;
 }
 
 .custom-height {
@@ -177,6 +186,10 @@ section {
 }
 
 /* Projects */
+.card {
+  background: var(--dark-card-color);
+}
+
 .card-top{
   background-color: black;
   overflow: hidden;

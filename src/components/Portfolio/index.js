@@ -8,10 +8,9 @@ function Portfolio() {
       title: 'CodeFlow',
       id: 'codeflow.png',
       subtitle: 'MERN (MongoDB, Express, React, Node), JavaScript, GraphQL, Mongoose ODM, JWT, Tagify, Bootstrap',
-      description: `CodeFlow is an interactive MERN Stack SPA application that gives developers 
-      a creative social hub to show off project ideas through blog posts as well as comment and like replies from other developers
-      through nested comments.
-      `,
+      description: `CodeFlow is an interactive MERN stack SPA social media app that gives developers 
+      a creative hub to show off their coding projects through posts and add 
+      friends as well as comment and like replies from other developers in threaded discussions.`,
       deployed: 'https://code-flow-app.herokuapp.com/',
       repo: 'https://github.com/cnohilly/codeflow'
     },
@@ -19,9 +18,8 @@ function Portfolio() {
       title: 'Watch It Later',
       id: 'watch-it-later.png',
       subtitle: 'Node, MySQL, Sequelize, Handlebars, Bulma, MVC, TMDB API',
-      description: `A full-stack app to search for movies and TV shows. 
-        In addition to looking up movie information, users are able to create accounts to add movies to 
-        their personal watchlist as well as leave comments and rate movies.`,
+      description: `A full-stack app allowing users to search for movies and TV shows, create accounts to add them to 
+        their personal watchlist saved in a SQL database, leave comments, and rate movies.`,
       deployed: 'https://watch-it-later.herokuapp.com/',
       repo: 'https://github.com/cnohilly/watch-it-later'
     },
@@ -30,8 +28,8 @@ function Portfolio() {
       id: 'movie-tv-watchlist.png',
       subtitle: 'HTML, CSS, JavaScript, Bulma, TMDB API',
       description: `Looking for something to watch? 
-        Use this app to search for movies and TV shows through the TMDB's API! 
-        Users are able to view movie and TV show information as well as add them to a personal watchlist`,
+        Use this app to search for movies and TV shows through the TMDB's API as well as add them to a 
+        personal watchlist saved in the browser's local storage.`,
       deployed: 'https://cnohilly.github.io/movie-tv-watchlist/',
       repo: 'https://github.com/cnohilly/movie-tv-watchlist'
     },
@@ -72,7 +70,7 @@ function Portfolio() {
 
   return(
     // section for Portfolio component with projects
-    <section id="portfolio" className="py-4 custom-bg-color custom-height">
+    <section id="portfolio" className="py-4 custom-bg-color text-white">
       <div className="container pb-4">
         <h2 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
           Portfolio
