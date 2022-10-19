@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio-react/static/css/main.a180cedb.css",
-    "main.js": "/my-portfolio-react/static/js/main.3f1f36ed.js",
+    "main.css": "/my-portfolio-react/static/css/main.3692a899.css",
+    "main.js": "/my-portfolio-react/static/js/main.a4d89d69.js",
     "static/js/787.fe039db8.chunk.js": "/my-portfolio-react/static/js/787.fe039db8.chunk.js",
     "static/media/watch-it-later.png": "/my-portfolio-react/static/media/watch-it-later.920c9e15360e89fd0ce5.png",
     "static/media/movie-tv-watchlist.png": "/my-portfolio-react/static/media/movie-tv-watchlist.915ab59fdea1d9fecd62.png",
@@ -13,13 +13,14 @@
     "static/media/codeflow.png": "/my-portfolio-react/static/media/codeflow.d30380b051160bf1596a.png",
     "static/media/bg-image.jpg": "/my-portfolio-react/static/media/bg-image.a741c42f523dc1932e51.jpg",
     "static/media/taskmaster-pro.png": "/my-portfolio-react/static/media/taskmaster-pro.f6a6ce797a2311f5d285.png",
+    "static/media/logo512.png": "/my-portfolio-react/static/media/logo512.ec979d35c19d0de0199c.png",
     "index.html": "/my-portfolio-react/index.html",
-    "main.a180cedb.css.map": "/my-portfolio-react/static/css/main.a180cedb.css.map",
-    "main.3f1f36ed.js.map": "/my-portfolio-react/static/js/main.3f1f36ed.js.map",
+    "main.3692a899.css.map": "/my-portfolio-react/static/css/main.3692a899.css.map",
+    "main.a4d89d69.js.map": "/my-portfolio-react/static/js/main.a4d89d69.js.map",
     "787.fe039db8.chunk.js.map": "/my-portfolio-react/static/js/787.fe039db8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a180cedb.css",
-    "static/js/main.3f1f36ed.js"
+    "static/css/main.3692a899.css",
+    "static/js/main.a4d89d69.js"
   ]
 }
