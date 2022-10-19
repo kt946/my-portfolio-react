@@ -8,8 +8,9 @@ function Header({ categories, currentPage, handlePageChange }) {
     <header className="navbar navbar-expand-lg navbar-dark sticky-top py-1">
       <nav className="container-fluid">
         <a 
-          href="/" 
+          href="#about" 
           className="navbar-brand d-flex align-items-center p-0 mx-2"
+          onClick={() => handlePageChange('About Me')}
         >
           <img
             src={Logo}
