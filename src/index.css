@@ -1,7 +1,9 @@
 :root {
   --primary-color: #003566;
-  --secondary-color: #ffc300;
   --glow-color: #0A7AEA;
+  --dark-bg-color: #1e1e2f;
+  --dark-card-color: #27293d;
+  --paragraph-color: #c2c9d1;
 }
 
 * {
@@ -26,7 +28,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--glow-color);
+  background: var(--bs-info);
   border-radius: 5px;
 }
 
@@ -92,7 +94,8 @@ nav {
 
 .nav-link:hover {
   color: rgba(255,255,255);
-  text-shadow: 0px 0px 10px var(--glow-color), 
+  text-shadow: 
+    0px 0px 10px var(--glow-color), 
     0px 0px 15px var(--glow-color), 
     0px 0px 20px var(--glow-color),
     0px 0px 20px var(--glow-color);
@@ -100,7 +103,8 @@ nav {
 
 .selected-color {
   color: rgb(255, 255, 255);
-  text-shadow: 0px 0px 10px var(--glow-color), 
+  text-shadow: 
+    0px 0px 10px var(--glow-color), 
     0px 0px 15px var(--glow-color), 
     0px 0px 20px var(--glow-color),
     0px 0px 20px var(--glow-color);
@@ -113,12 +117,15 @@ section {
 
 .section-title {
   font-size: 3rem;
-  border-color: var(--bs-secondary) !important;
+  border-color: var(--bs-info) !important;
 }
 
 .custom-bg-color {
-  background-color: var(--bs-light);
-  background: linear-gradient(var(--bs-light),#c7c7c7);
+  background-color: var(--dark-bg-color);
+}
+
+.custom-text-color {
+ color: var(--paragraph-color);
 }
 
 .custom-height {

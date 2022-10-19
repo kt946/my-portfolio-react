@@ -1,14 +1,14 @@
 // file to change default Bootstrap colors
 
-$theme-colors: (
-    "primary":#003566,
-    "secondary": #ffc300,
-    "success": #06d6a0,
-    "danger": #d00000,
-    "warning": #ffd60a,
-    "info": #00b4d8,
-    "light": #f8f9fa,
-    "dark": #212529,
-);
+// Default variable overrides
+$primary: #003566;
+$secondary: #6c757d;
+$success: #06d6a0;
+$info: #1d8cf8;
+$warning: #ffc300;
+$danger: #d00000;
+$light: #e4e4e4;
+$dark: #212529;
 
+// Required
 @import "../node_modules/bootstrap/scss/bootstrap";

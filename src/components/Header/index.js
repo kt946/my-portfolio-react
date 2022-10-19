@@ -8,7 +8,7 @@ function Header({ categories, currentPage, handlePageChange }) {
         <nav className="container-fluid">
           <h1 className="mb-0">
             <a 
-              href="https://kt946.github.io/my-portfolio-react/" 
+              href="/" 
               className="navbar-brand fs-2 mx-3"
             >
               Kyle Tang

@@ -15,12 +15,12 @@ function About() {
         </p>
       </div>
       {/* About me section */}
-      <section className="py-4 custom-bg-color text-black custom-height">
+      <section className="py-4 custom-bg-color text-white custom-height">
         <div className="container">
           <h2 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
             About Me
           </h2>
-          <p className="fs-4 text-center mb-4 cm-font-heading animate__animated animate__fadeInDown">
+          <p className="fs-3 text-center mb-4 cm-font-heading animate__animated animate__fadeInDown">
             Who am I? You sure you want to know?
           </p>
           <div className="d-flex flex-column flex-md-row fs-5 animate__animated animate__fadeIn animate__delay-1s">
@@ -28,12 +28,12 @@ function About() {
             <div className="text-center mb-4">
               <img 
                 src={portraitPhoto}
-                alt="portrait"
-                className="portrait-image shadow border border-5 border-primary"
+                alt="Portrait of Kyle"
+                className="portrait-image shadow border border-5 border-info"
               />
             </div>
             {/* Bio */}
-            <div className="ms-0 ms-md-5 custom-fs">
+            <div className="ms-0 ms-md-5 custom-fs custom-text-color">
               <p>
                 Hi everyone! My name is Kyle Tang and I'm a full stack web developer with a B.A. in Psychology from Rutgers University and a passion for technology, creativity, and learning.
                 I've completed a certificate in Full Stack Web Development from the Rutgers Coding Bootcamp.
