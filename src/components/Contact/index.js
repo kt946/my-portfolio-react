@@ -41,7 +41,7 @@ function Contact() {
 
   return(
     // section for Contact component
-    <section id="contact" className="py-4 custom-bg-color text-white">
+    <section id="contact" className="py-4 custom-bg-color custom-height text-white">
       <div className="container pb-4">
         <h2 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
           Contact

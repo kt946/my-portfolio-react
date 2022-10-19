@@ -34,7 +34,7 @@ function Resume() {
 
   return(
     // section for Resume component
-    <section id="resume" className="py-4 custom-bg-color text-white">
+    <section id="resume" className="py-4 custom-bg-color custom-height text-white">
       <div className="container pb-4">
         <h2 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
           Resume
