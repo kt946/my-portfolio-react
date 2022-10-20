@@ -55,7 +55,7 @@ function App() {
         currentPage={currentPage}
         handlePageChange={handlePageChange} 
       />
-      <main>
+      <main className="custom-bg-color">
         {/* render pages here */}
         {renderPage()}
       </main>

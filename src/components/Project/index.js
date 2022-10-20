@@ -1,15 +1,15 @@
 import React from 'react';
 
-function Project(props) {
+function Project({ project }) {
   // destructure project data from props
   const { 
     title, 
-    id, 
-    subtitle, 
+    image, 
+    technology, 
     description, 
     deployed, 
     repo 
-  } = props;
+  } = project;
   
   return(
     // section for Project component
@@ -22,7 +22,7 @@ function Project(props) {
           className="card-top"
         >
           <img 
-            src={require(`../../assets/images/${id}`)}
+            src={require(`../../assets/images/${image}`)}
             className="card-img-top" 
             alt={`Screenshot of ${title}`}
           />
@@ -38,14 +38,14 @@ function Project(props) {
             <hr />
             {/* project technologies */}
             <h6 className="card-text cm-font-family">Technologies Used:</h6>
-            <p className="card-text cm-font-family custom-text-color">{subtitle}</p>
+            <p className="card-text cm-font-family custom-text-color">{technology}</p>
           </div>
         </div>
         <div className="card-footer bg-primary d-flex justify-content-between align-items-center">
           {/* link to deployed application */}
           <a href={deployed} className="btn custom-btn rounded-pill">Visit Website</a>
           {/* link to github repository */}
-          <a href={repo} className="fs-1 text-white">
+          <a href={repo} className="icon-btn fs-1 text-white">
             <i className="bi bi-github"></i>
           </a>
         </div>

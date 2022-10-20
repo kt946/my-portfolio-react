@@ -151,11 +151,11 @@ section {
   background-size: cover;
 }
 
-.hero h2 {
+.hero h1 {
   font-size: 5rem;
 }
 
-.hero h2, .hero p {
+.hero h1, .hero p {
   text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
@@ -194,9 +194,18 @@ section {
   overflow: hidden;
 }
 
+.card-img-top, .icon-btn {
+  transition: all ease-in-out 0.3s;
+}
+
 .card-img-top:hover {
   opacity: .6;
   transition: all ease-in-out 0.3s;
+}
+
+.icon-btn:hover {
+  transition: all ease-in-out 0.3s;
+  color: var(--bs-light) !important;
 }
 
 /* Contact section */
@@ -214,7 +223,7 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-  .hero h2 {
+  .hero h1 {
     font-size: 8vw;
   }
 
@@ -228,7 +237,7 @@ section {
     font-size: 2rem;
   }
 
-  .hero h2 {
+  .hero h1 {
     font-size: 15vw;
   }
 
