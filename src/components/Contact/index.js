@@ -41,7 +41,7 @@ function Contact() {
 
   return(
     // section for Contact component
-    <section id="contact" className="container py-4 mb-4 custom-bg-color custom-height text-white">
+    <section id="contact" className="container py-4 custom-bg-color custom-height text-white">
       <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
         Contact
       </h1>
@@ -67,7 +67,7 @@ function Contact() {
         </a>
       </div>
       {/* contact form */}
-      <div className="d-flex justify-content-center animate__animated animate__fadeIn animate__delay-1s">
+      <div className="d-flex mb-4 justify-content-center animate__animated animate__fadeIn animate__delay-1s">
         <form id="contact-form" className="rounded p-4 shadow" onSubmit={handleSubmit}>
           {/* name */}
           <div className="mb-3">

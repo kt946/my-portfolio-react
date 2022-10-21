@@ -5,11 +5,11 @@ import Logo from '../../assets/images/logo512.png'
 function Header({ categories, currentPage, handlePageChange }) {
   return(
     // section for Header component
-    <header className="navbar navbar-expand-lg navbar-dark sticky-top py-1">
+    <header className="navbar navbar-expand-lg navbar-dark sticky-top py-1 px-2">
       <nav className="container-fluid">
         <a 
           href="#about" 
-          className="navbar-brand d-flex align-items-center p-0 mx-2"
+          className="navbar-brand d-flex align-items-center p-0"
           onClick={() => handlePageChange('About Me')}
         >
           <img
@@ -19,9 +19,9 @@ function Header({ categories, currentPage, handlePageChange }) {
             className="d-inline-block align-text-top me-2"
             alt="Portfolio logo"
           />
-          <div className="mt-1">
+          <span className="mt-1">
             Kyle Tang
-          </div>
+          </span>
         </a>
         {/* button menu toggle for mobile screen sizes */}
         <button 

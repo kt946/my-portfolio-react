@@ -41,7 +41,7 @@ function Footer() {
         ))}
       </ul>
       <p className="text-center">
-        &copy; 2022 Kyle Tang
+        &copy; 2022 Kyle Tang. All Rights Reserved.
       </p>
     </footer>
   );

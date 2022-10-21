@@ -49,7 +49,6 @@ body {
 }
 
 /* Header and Footer */
-
 .navbar-brand {
   font-size: 2rem;
   font-family: 'Bebas Neue', cursive;
@@ -59,22 +58,16 @@ nav {
   min-height: 48px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.hero p {
-  font-family: 'Oswald', sans-serif;
-}
-
-.cm-font-family {
-  font-family: 'Kanit', sans-serif;
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .cm-font-heading {
   font-family: 'Rubik', sans-serif;
+}
+
+.cm-font-family {
+  font-family: 'Kanit', sans-serif;
 }
 
 header {
@@ -96,7 +89,7 @@ header {
     0px 0px 20px var(--glow-color);
 }
 
-.selected-color {
+.navActive {
   color: rgb(255, 255, 255);
   text-shadow: 
     0px 0px 10px var(--glow-color), 
@@ -111,6 +104,7 @@ section {
 }
 
 .section-title {
+  font-family: 'Rubik', sans-serif;
   font-size: 3rem;
   border-color: var(--bs-info) !important;
 }
@@ -146,17 +140,14 @@ section {
 
 /* About Me section */
 .hero {
-  min-height: calc(100vh - 64px);
+  min-height: calc(100vh - 60px);
   background: url(../src/assets/images/bg-image.jpg) no-repeat fixed center;
   background-size: cover;
 }
 
-.hero h1 {
-  font-size: 5rem;
-}
-
-.hero h1, .hero p {
-  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+.brand {
+  font-size: 6rem;
+  font-family: 'Bebas Neue', cursive;
 }
 
 /* background animation */
@@ -223,8 +214,8 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-  .hero h1 {
-    font-size: 8vw;
+  .brand {
+    font-size: 5rem;
   }
 
   .skill-card {
@@ -237,8 +228,8 @@ section {
     font-size: 2rem;
   }
 
-  .hero h1 {
-    font-size: 15vw;
+  .brand {
+    font-size: 4.5rem;
   }
 
   .portrait-image {

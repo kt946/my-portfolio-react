@@ -35,7 +35,7 @@ function Resume() {
 
   return(
     // section for Resume component
-    <section id="resume" className="container py-4 mb-4 custom-bg-color custom-height text-white">
+    <section id="resume" className="container py-4 custom-bg-color custom-height text-white">
       <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
         Resume
       </h1>
@@ -51,12 +51,12 @@ function Resume() {
           Download resume
         </a>
       </div>
-      <div className="d-flex flex-column flex-md-row justify-content-evenly align-items-center align-items-md-start animate__animated animate__fadeIn animate__delay-1s">
+      <div className="d-flex mb-4 flex-column flex-md-row justify-content-evenly align-items-center align-items-md-start animate__animated animate__fadeIn animate__delay-1s">
         {/* card for displaying front-end skills */}
         <div className="card shadow skill-card mb-4">
-          <div className="card-header text-center text-white bg-primary fs-4 py-3">
+          <h2 className="card-header cm-font-heading text-center text-white bg-primary fs-4 py-3">
             Front-end Proficiencies
-          </div>
+          </h2>
           <ul className="list-group list-group-flush text-center">
             {/* map array of front-end skills */}
             {frontEndSkills.map(skill => (
@@ -71,9 +71,9 @@ function Resume() {
         </div>
         {/* card for displaying back-end skills */}
         <div className="card shadow skill-card">
-          <div className="card-header text-center text-white bg-primary fs-4 py-3">
+          <h2 className="card-header cm-font-heading text-center text-white bg-primary fs-4 py-3">
             Back-end Proficiencies
-          </div>
+          </h2>
           <ul className="list-group list-group-flush text-center">
             {/* map array of back-end skills */}
             {backEndSkills.map(skill => (

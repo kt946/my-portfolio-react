@@ -29,7 +29,7 @@ function Project({ project }) {
         </a>
         <div className="card-header bg-primary">
           {/* project title */}
-          <h4 className="card-title my-1">{title}</h4>
+          <h2 className="card-title cm-font-heading fs-4 my-1">{title}</h2>
         </div>
         <div className="card-body d-flex flex-column justify-content-between">
           {/* project description */}
@@ -37,8 +37,8 @@ function Project({ project }) {
           <div>
             <hr />
             {/* project technologies */}
-            <h6 className="card-text cm-font-family">Technologies Used:</h6>
-            <p className="card-text cm-font-family custom-text-color">{technology}</p>
+            <h3 className="card-text cm-font-heading fs-6">Technologies Used:</h3>
+            <p className="card-text custom-text-color">{technology}</p>
           </div>
         </div>
         <div className="card-footer bg-primary d-flex justify-content-between align-items-center">

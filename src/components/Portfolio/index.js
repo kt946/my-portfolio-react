@@ -87,7 +87,7 @@ function Portfolio() {
 
   return(
     // section for Portfolio component with projects
-    <section id="portfolio" className="container py-4 mb-4 custom-height text-white">
+    <section id="portfolio" className="container py-4 custom-height text-white">
       <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
         Portfolio
       </h1>
@@ -95,7 +95,7 @@ function Portfolio() {
         Here is a collection of some of my works.
       </p>
       {/* Project component */}
-      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 animate__animated animate__fadeIn animate__delay-1s">
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-4 animate__animated animate__fadeIn animate__delay-1s">
         {projects.map((project) => (
           <Project 
             key={project.title} 

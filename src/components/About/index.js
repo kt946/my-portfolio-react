@@ -6,11 +6,13 @@ function About() {
     // section for About component
     <section id="about" className="text-white">
       {/* Landing page */}
-      <div className="hero d-flex flex-column justify-content-center align-items-center">
-        <h1 className="text-center mx-4 animate__animated animate__fadeIn">
-          Hello world! I'm Kyle Tang.
+      <div className="hero text-center d-flex flex-column justify-content-center align-items-center">
+        <p className="display-4 mx-4 montserrat">Hello world! My name is</p>
+        <h1 className="brand">
+          <span className="">Kyle </span>
+          <span className="">Tang.</span>
         </h1>
-        <p className="fs-1 text-center animate__animated animate__fadeInDown animate__delay-1s">
+        <p className="display-4 montserrat">
           A Full-Stack Web Developer.
         </p>
       </div>
