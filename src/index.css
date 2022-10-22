@@ -38,7 +38,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
@@ -97,8 +97,8 @@ section {
   border-color: var(--bs-info) !important;
 }
 
-.section-subtitle, .hero-subtitle, .card h2, .card h3 {
-  font-family: 'Montserrat', sans-serif;
+.body-text {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .custom-bg-color {

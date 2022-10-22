@@ -33,12 +33,12 @@ function Project({ project }) {
         </div>
         <div className="card-body d-flex flex-column justify-content-between">
           {/* project description */}
-          <p className="card-text custom-text-color mb-0">{description}</p>
+          <p className="card-text custom-text-color mb-0 body-text">{description}</p>
           <div>
             <hr />
             {/* project technologies */}
             <h3 className="card-text fs-6">Technologies Used:</h3>
-            <p className="card-text custom-text-color">{technology}</p>
+            <p className="card-text custom-text-color body-text">{technology}</p>
           </div>
         </div>
         <div className="card-footer bg-primary d-flex justify-content-between align-items-center">

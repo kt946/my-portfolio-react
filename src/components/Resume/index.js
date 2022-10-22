@@ -39,7 +39,7 @@ function Resume() {
       <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
         Resume
       </h1>
-      <h2 className="section-subtitle fs-3 fw-bold text-center mb-4 animate__animated animate__fadeInDown">
+      <h2 className="fs-3 fw-bold text-center mb-4 animate__animated animate__fadeInDown">
         Thanks for visiting! Check out my resume and the skills I've picked up during my journey.
       </h2>
       <div className="d-flex mb-4 justify-content-center animate__animated animate__fadeIn animate__delay-1s">
@@ -64,7 +64,7 @@ function Resume() {
             {frontEndSkills.map(skill => (
               <li 
                 key={skill}
-                className="list-group-item custom-text-color"
+                className="list-group-item custom-text-color body-text"
               >
                 {skill}
               </li>
@@ -83,7 +83,7 @@ function Resume() {
             {backEndSkills.map(skill => (
               <li 
                 key={skill}
-                className="list-group-item custom-text-color"
+                className="list-group-item custom-text-color body-text"
               >
                 {skill}
               </li>

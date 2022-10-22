@@ -8,7 +8,7 @@ function About() {
       {/* Landing page */}
       <div className="hero text-center d-flex flex-column justify-content-center align-items-center">
         <h1 className="px-2 display-6">
-          <span className="hero-subtitle animate__animated animate__fadeInDown animate_faster delay-1">
+          <span className="animate__animated animate__fadeInDown animate_faster delay-1">
             Hello world! I'm
           </span>
           <br />
@@ -30,7 +30,7 @@ function About() {
         <h2 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
           About Me
         </h2>
-        <h3 className="section-subtitle fs-3 fw-bold text-center mb-4 animate__animated animate__fadeInDown">
+        <h3 className="fs-3 fw-bold text-center mb-4 animate__animated animate__fadeInDown">
           Who am I? You sure you want to know?
         </h3>
         <div className="d-flex flex-column flex-md-row fs-5 animate__animated animate__fadeIn animate__delay-1s">
@@ -43,7 +43,7 @@ function About() {
             />
           </div>
           {/* Bio */}
-          <div className="ms-0 ms-md-5 custom-fs custom-text-color">
+          <div className="ms-0 ms-md-5 custom-fs custom-text-color body-text">
             <p>
               Hi everyone! My name is Kyle Tang and I'm a full stack web developer with a B.A. in Psychology from Rutgers University and a passion for technology, creativity, and learning.
               I've completed a certificate in Full Stack Web Development from the Rutgers Coding Bootcamp.
