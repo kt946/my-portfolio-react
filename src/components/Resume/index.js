@@ -39,9 +39,9 @@ function Resume() {
       <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
         Resume
       </h1>
-      <p className="fs-3 text-center mb-4 cm-font-heading animate__animated animate__fadeInDown">
+      <h2 className="section-subtitle fs-3 fw-bold text-center mb-4 animate__animated animate__fadeInDown">
         Thanks for visiting! Check out my resume and the skills I've picked up during my journey.
-      </p>
+      </h2>
       <div className="d-flex mb-4 justify-content-center animate__animated animate__fadeIn animate__delay-1s">
         {/* button for downloading resume */}
         <a 
@@ -54,9 +54,11 @@ function Resume() {
       <div className="d-flex mb-4 flex-column flex-md-row justify-content-evenly align-items-center align-items-md-start animate__animated animate__fadeIn animate__delay-1s">
         {/* card for displaying front-end skills */}
         <div className="card shadow skill-card mb-4">
-          <h2 className="card-header cm-font-heading text-center text-white bg-primary fs-4 py-3">
-            Front-end Proficiencies
-          </h2>
+          <div className="card-header bg-primary py-3">
+            <h2 class="text-center fs-4 fw-bold mb-0">
+              Front-end Proficiencies
+            </h2>
+          </div>
           <ul className="list-group list-group-flush text-center">
             {/* map array of front-end skills */}
             {frontEndSkills.map(skill => (
@@ -71,9 +73,11 @@ function Resume() {
         </div>
         {/* card for displaying back-end skills */}
         <div className="card shadow skill-card">
-          <h2 className="card-header cm-font-heading text-center text-white bg-primary fs-4 py-3">
-            Back-end Proficiencies
-          </h2>
+          <div className="card-header bg-primary py-3">
+            <h2 class="text-center fs-4 fw-bold mb-0">
+              Back-end Proficiencies
+            </h2>
+          </div>
           <ul className="list-group list-group-flush text-center">
             {/* map array of back-end skills */}
             {backEndSkills.map(skill => (

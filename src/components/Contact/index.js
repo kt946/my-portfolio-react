@@ -45,9 +45,9 @@ function Contact() {
       <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
         Contact
       </h1>
-      <p className="fs-3 mb-4 text-center cm-font-heading animate__animated animate__fadeInDown">
+      <h2 className="section-subtitle fs-3 fw-bold mb-4 text-center animate__animated animate__fadeInDown">
         Want to connect? Leave a message and I'll get back to you soon!
-      </p>
+      </h2>
       <div className="fs-4 mb-4 text-center d-flex flex-column flex-sm-row justify-content-center animate__animated animate__fadeIn animate__delay-1s">
         {/* Link to email */}
         <a 

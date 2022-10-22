@@ -29,15 +29,15 @@ function Project({ project }) {
         </a>
         <div className="card-header bg-primary">
           {/* project title */}
-          <h2 className="card-title cm-font-heading fs-4 my-1">{title}</h2>
+          <h2 className="card-title fs-4 fw-bold my-1">{title}</h2>
         </div>
         <div className="card-body d-flex flex-column justify-content-between">
           {/* project description */}
-          <p className="card-text custom-text-color">{description}</p>
+          <p className="card-text custom-text-color mb-0">{description}</p>
           <div>
             <hr />
             {/* project technologies */}
-            <h3 className="card-text cm-font-heading fs-6">Technologies Used:</h3>
+            <h3 className="card-text fs-6">Technologies Used:</h3>
             <p className="card-text custom-text-color">{technology}</p>
           </div>
         </div>

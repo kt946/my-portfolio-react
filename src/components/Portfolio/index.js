@@ -91,9 +91,9 @@ function Portfolio() {
       <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
         Portfolio
       </h1>
-      <p className="fs-3 text-center mb-4 cm-font-heading animate__animated animate__fadeInDown">
+      <h2 className="section-subtitle fs-3 fw-bold text-center mb-4 animate__animated animate__fadeInDown">
         Here is a collection of some of my works.
-      </p>
+      </h2>
       {/* Project component */}
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-4 animate__animated animate__fadeIn animate__delay-1s">
         {projects.map((project) => (
