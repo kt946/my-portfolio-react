@@ -42,15 +42,15 @@ To view this portfolio, navigate to the Links section and click on the link to t
 
 The following images demonstrate the application's appearance and functionality.
 
-![landing-page](https://user-images.githubusercontent.com/103476893/191892904-b5f573cf-aaee-4176-8215-7402dfcd3ce4.png)
+![landing-page](./src/assets/images/landing-page.png)
 
-![about-me](https://user-images.githubusercontent.com/103476893/191889293-4dd4887d-249e-4faf-8443-b5ab4e82a368.png)
+![about-me](./src/assets/images/about-me.png)
 
-![portfolio](https://user-images.githubusercontent.com/103476893/191889299-75abb382-8972-4eed-93a1-543000009c9e.png)
+![portfolio](./src/assets/images/portfolio.png)
 
-![contact](https://user-images.githubusercontent.com/103476893/191889306-ec298d18-1476-474e-9bd2-5f19b60537e9.png)
+![contact](./src/assets/images/contact.png)
 
-![resume](https://user-images.githubusercontent.com/103476893/191889317-345346d0-2b13-4b8a-9b20-d3c9211b5a5b.png)
+![resume](./src/assets/images/resume.png)
 
 ## Technologies Used
 
