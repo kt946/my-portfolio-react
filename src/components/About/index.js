@@ -33,7 +33,7 @@ function About() {
         <h3 className="fs-4 fw-bold text-center mb-4 animate__animated animate__fadeInDown delay-1">
           Who am I? You sure you want to know?
         </h3>
-        <div className="d-flex flex-column flex-md-row fs-5 animate__animated animate__fadeIn animate__delay-1s">
+        <div className="d-flex flex-column flex-lg-row fs-5 animate__animated animate__fadeIn animate__delay-1s">
           {/* Portrait */}
           <div className="text-center mb-4">
             <img 

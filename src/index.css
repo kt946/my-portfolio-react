@@ -115,7 +115,7 @@ section {
   background-image: linear-gradient(to bottom left,#1d8cf8,#3358f4,#1d8cf8);
   background-size: 200% 200%;
   background-position: 100% 0;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.4s;
 }
 
 .custom-btn:hover {
@@ -133,10 +133,25 @@ section {
 /* About Me section */
 .hero {
   min-height: calc(100vh - 60px);
-  /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% ); */
-  /* background-image: radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgba(37,145,251,0.98) 0%, rgba(0,7,128,1) 97.5% ); */
-  /* background-image: radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgba(251,32,86,1) 0%, rgba(135,2,35,1) 90% ); */
-  background-image: radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgb(38, 68, 202) 0%, rgba(7,3,53,1) 97.5% );
+  background-image:
+    /* hexagon background */
+    /* url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' opacity='.1' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23070335' fill-opacity='1' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), */
+    
+    /* graph paper background */
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' opacity='.3' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23070335' fill-opacity='1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+    
+    /* honeycomb backgound */
+    /* url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' opacity='.3' width='56' height='100'%3E%3Crect width='56' height='100' fill='none'/%3E%3Cpath d='M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100' fill='none' stroke='%23070335' stroke-width='1'/%3E%3C/svg%3E"), */
+    /* url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' opacity='.3' width='56' height='100'%3E%3Crect width='56' height='100' fill='none'/%3E%3Cpath d='M28 0L28 34L0 50L0 84L28 100L56 84L56 50L28 34' fill='none' stroke='%23070335' stroke-width='1'/%3E%3C/svg%3E"), */
+
+    /* tiles background */
+    /* url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' opacity='.5' width='50' height='50' viewBox='0 0 50 50'%3E%3Cline x1='1' y1='0' x2='51' y2='50' stroke='%23none' stroke-width='0.1'/%3E%3Cline x1='49' y1='0' x2='-1' y2='50' stroke='%23none' stroke-width='0.1'/%3E%3Cline x1='50' y1='0' x2='0' y2='50' stroke='%23ffffff' stroke-width='0.1'/%3E%3Cline x1='0' y1='0' x2='50' y2='50' stroke='%23ffffff' stroke-width='0.1'/%3E%3C/svg%3E"), */
+
+    /* gradient background */
+    radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgb(38, 68, 202) 0%, rgba(7,3,53,1) 97.5% );
+    /* radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgba(251,32,86,1) 0%, rgba(135,2,35,1) 90% ); */
+    /* radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% ); */
+    /* radial-gradient( circle farthest-corner at 50% 50%,  rgba(37,145,251,0.98) 0%, rgba(0,7,128,1) 97.5% ); */
 }
 
 .hero h1 span {
@@ -195,20 +210,21 @@ section {
 .card-top{
   background-color: black;
   overflow: hidden;
+  border-radius: 5px 5px 0 0;
 }
 
 .card-img-top, .icon-btn {
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.4s;
 }
 
 .card-img-top:hover {
   opacity: .5;
-  transform: scale(1.2);
-  transition: all ease-in-out 0.3s;
+  transform: scale(1.1);
+  transition: all ease-in-out 0.4s;
 }
 
 .icon-btn:hover {
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.4s;
   color: var(--bs-light) !important;
 }
 

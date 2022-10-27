@@ -32,11 +32,17 @@ function App() {
   const [currentPage, setCurrentPage] = useState(categories[0].name);
   
   // function to render pages based on currentPage
-  const renderPage = () => {
-    return currentPage === 'About Me' ? <About />
-      : currentPage === 'Portfolio' ? <Portfolio />
-      : currentPage === 'Contact' ? <Contact />
-      : <Resume />;
+  const renderPage = (currentPage) => {
+    switch(currentPage) {
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Contact':
+        return <Contact />;
+      case 'Resume':
+        return <Resume />;
+      default:
+        return <About />;
+    }
   };
 
   // change title of browser tab
@@ -57,7 +63,7 @@ function App() {
       />
       <main className="custom-bg-color">
         {/* render pages here */}
-        {renderPage()}
+        {renderPage(currentPage)}
       </main>
       {/* Footer component */}
       <Footer />
