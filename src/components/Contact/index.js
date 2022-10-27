@@ -42,13 +42,13 @@ function Contact() {
   return(
     // section for Contact component
     <section id="contact" className="container py-4 custom-bg-color custom-height text-white">
-      <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
+      <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn">
         Contact
       </h1>
-      <h2 className="fs-3 fw-bold mb-4 text-center animate__animated animate__fadeInDown">
+      <h2 className="fs-4 fw-bold mb-4 text-center animate__animated animate__fadeInDown delay-1">
         Want to connect? Leave a message and I'll get back to you soon!
       </h2>
-      <div className="fs-4 mb-4 text-center d-flex flex-column flex-sm-row justify-content-center animate__animated animate__fadeIn animate__delay-1s">
+      <div className="fs-5 mb-4 text-center d-flex flex-column flex-sm-row justify-content-center animate__animated animate__fadeIn animate__delay-1s">
         {/* Link to email */}
         <a 
           href="mailto:ktang1151@gmail.com"

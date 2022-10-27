@@ -5,7 +5,7 @@ function Resume() {
   const frontEndSkills = [
     'HTML5',
     'CSS3',
-    'JavaScript ES6+',
+    'JavaScript ES6',
     'jQuery',
     'Responsive Design',
     'DOM API',
@@ -36,17 +36,17 @@ function Resume() {
   return(
     // section for Resume component
     <section id="resume" className="container py-4 custom-bg-color custom-height text-white">
-      <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
+      <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn">
         Resume
       </h1>
-      <h2 className="fs-3 fw-bold text-center mb-4 animate__animated animate__fadeInDown">
+      <h2 className="fs-4 fw-bold text-center mb-4 animate__animated animate__fadeInDown delay-1">
         Thanks for visiting! Check out my resume and the skills I've picked up during my journey.
       </h2>
       <div className="d-flex mb-4 justify-content-center animate__animated animate__fadeIn animate__delay-1s">
         {/* button for downloading resume */}
         <a 
           href="https://drive.google.com/file/d/1r3HfYnQr1qtijQ7Kv8SudnAkat5uMETE/view?usp=sharing" 
-          className="btn custom-btn btn-lg rounded-pill"
+          className="btn custom-btn rounded-pill"
         >
           Download resume
         </a>

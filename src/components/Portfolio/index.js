@@ -8,9 +8,9 @@ function Portfolio() {
       title: 'CodeFlow',
       image: 'codeflow.png',
       technology: 'MERN, JavaScript, GraphQL, JWT, Tagify, Bootstrap',
-      description: `CodeFlow is an interactive full-stack MERN stack SPA social media app that gives developers 
-        a creative hub to show off their coding projects through posts and add 
-        friends as well as comment and like replies from other developers in threaded discussions.`,
+      description: `CodeFlow is an interactive social media MERN stack SPA that gives developers 
+        a creative hub to show off their coding projects through posts, add 
+        friends, and join the discussion with other developers in threaded comments.`,
       deployed: 'https://code-flow-app.herokuapp.com/',
       repo: 'https://github.com/cnohilly/codeflow'
     },
@@ -88,11 +88,11 @@ function Portfolio() {
   return(
     // section for Portfolio component with projects
     <section id="portfolio" className="container py-4 custom-height text-white">
-      <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn animate__faster">
+      <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn">
         Portfolio
       </h1>
-      <h2 className="fs-3 fw-bold text-center mb-4 animate__animated animate__fadeInDown">
-        Here is a collection of some of my works.
+      <h2 className="fs-4 fw-bold text-center mb-4 animate__animated animate__fadeInDown delay-1">
+        Here is a collection of my featured projects.
       </h2>
       {/* Project component */}
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-4 animate__animated animate__fadeIn animate__delay-1s">

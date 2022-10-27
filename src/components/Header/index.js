@@ -14,8 +14,8 @@ function Header({ categories, currentPage, handlePageChange }) {
         >
           <img
             src={Logo}
-            width="30"
-            height="30"
+            width="36"
+            height="36"
             className="d-inline-block align-text-top me-2"
             alt="Portfolio logo"
           />

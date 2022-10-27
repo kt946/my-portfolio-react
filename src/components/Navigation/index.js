@@ -15,7 +15,7 @@ function Navigation(props) {
         {/* map array of categories from props */}
         {categories.map((category) => (
           <li 
-            className="nav-item fs-5 d-flex justify-content-end"
+            className="nav-item d-flex justify-content-end"
             key={category.name}
           >
             <a
