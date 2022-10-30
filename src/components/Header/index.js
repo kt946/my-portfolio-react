@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from '../Navigation';
-import Logo from '../../assets/images/logo512.png'
+import Logo from '../../mylogo.svg'
 
 function Header({ categories, currentPage, handlePageChange }) {
   return(
