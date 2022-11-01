@@ -27,7 +27,7 @@ function About() {
       </div>
       {/* About me section */}
       <section className="container py-4 text-white custom-height">
-        <h2 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn">
+        <h2 className="section-title text-center pb-2 mb-4 animate__animated animate__fadeIn">
           About Me
         </h2>
         <h3 className="fs-4 fw-bold text-center mb-4 animate__animated animate__fadeInDown delay-1">

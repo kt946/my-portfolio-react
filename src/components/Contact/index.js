@@ -41,8 +41,8 @@ function Contact() {
 
   return(
     // section for Contact component
-    <section id="contact" className="container py-4 custom-bg-color custom-height text-white">
-      <h1 className="section-title text-center border-bottom border-3 pb-2 mb-4 animate__animated animate__fadeIn">
+    <section id="contact" className="container py-4 custom-height text-white">
+      <h1 className="section-title text-center pb-2 mb-4 animate__animated animate__fadeIn">
         Contact
       </h1>
       <h2 className="fs-4 fw-bold mb-4 text-center animate__animated animate__fadeInDown delay-1">

@@ -43,10 +43,10 @@ function Project({ project }) {
         </div>
         <div className="card-footer bg-primary d-flex justify-content-between align-items-center">
           {/* link to deployed application */}
-          <a href={deployed} className="btn custom-btn rounded-pill">Visit Website</a>
+          <a href={deployed} role="button" className="btn custom-btn rounded-pill">View Project</a>
           {/* link to github repository */}
-          <a href={repo} className="icon-btn fs-1 text-white">
-            <i className="bi bi-github"></i>
+          <a href={repo} role="button" className="btn custom-btn rounded-pill">
+            <i className="bi bi-github"></i> Github
           </a>
         </div>
       </div>

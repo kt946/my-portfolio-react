@@ -1,6 +1,6 @@
 :root {
   --glow-color: #0A7AEA;
-  --dark-bg-color: #171725;
+  --dark-bg-color: #10101a;
   --dark-card-color: #27293d;
   --paragraph-color: #c2c9d1;
 }
@@ -94,6 +94,7 @@ section {
 .section-title {
   font-family: 'Bebas Neue', cursive;
   font-size: 4rem;
+  border-bottom: solid 1px;
   border-color: var(--bs-info) !important;
 }
 
@@ -102,7 +103,8 @@ section {
 }
 
 .custom-bg-color {
-  background-color: var(--dark-bg-color);
+  background: var(--dark-bg-color) url(../src/assets/images/cm-gradient-bg.png) no-repeat fixed center;
+  background-size: cover;
 }
 
 .custom-text-color {
