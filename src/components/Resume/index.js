@@ -56,7 +56,7 @@ function Resume() {
         {/* card for displaying front-end skills */}
         <div className="card shadow skill-card mb-4">
           <div className="card-header bg-dark py-3">
-            <h2 class="text-info text-center fs-4 fw-bold mb-0">
+            <h2 class="text-center fs-4 fw-bold mb-0">
               Front-end Proficiencies
             </h2>
           </div>
@@ -75,7 +75,7 @@ function Resume() {
         {/* card for displaying back-end skills */}
         <div className="card shadow skill-card">
           <div className="card-header bg-dark py-3">
-            <h2 class="text-info text-center fs-4 fw-bold mb-0">
+            <h2 class="text-center fs-4 fw-bold mb-0">
               Back-end Proficiencies
             </h2>
           </div>
