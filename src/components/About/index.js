@@ -26,7 +26,7 @@ function About() {
         </h1>
       </div>
       {/* About me section */}
-      <section className="container py-4 text-white custom-height">
+      <section className="container py-4 custom-height text-white">
         <h2 className="section-title text-center pb-2 mb-4 animate__animated animate__fadeIn">
           About Me
         </h2>
@@ -45,7 +45,7 @@ function About() {
           {/* Bio */}
           <div className="ms-0 ms-md-5 custom-fs custom-text-color body-text">
             <p>
-              Hi everyone! My name is Kyle Tang and I'm a full stack web developer with a B.A. in Psychology from Rutgers University and a passion for technology, creativity, and learning.
+              Hi everyone! My name is Kyle and I'm a full stack web developer with a B.A. in Psychology from Rutgers University and a passion for technology, creativity, and learning.
               I've completed a certificate in Full Stack Web Development from the Rutgers Coding Bootcamp.
               As a versatile quick learner and problem-solver, I'm able to collaborate with teams to develop projects with simple, elegant designs and robust databases. 
               I'm eager to demonstrate my newly acquired skills and build innovative applications that help me grow as a developer and provide users with immersive web experiences.

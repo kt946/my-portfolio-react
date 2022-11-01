@@ -74,7 +74,7 @@ function Contact() {
             <label htmlFor="name" className="form-label fs-5">Name</label>
             <input 
               type="text" 
-              className="form-control bg-dark text-light border-secondary"
+              className="form-control text-light border-secondary"
               name="name"
               defaultValue={name}
               onBlur={handleChange}
@@ -85,7 +85,7 @@ function Contact() {
             <label htmlFor="email" className="form-label fs-5">Email address</label>
             <input 
               type="email" 
-              className="form-control bg-dark text-light border-secondary"
+              className="form-control text-light border-secondary"
               name="email"
               defaultValue={email}
               onBlur={handleChange}
@@ -95,7 +95,7 @@ function Contact() {
           <div className="mb-4">
             <label htmlFor="message" className="form-label fs-5">Message</label>
             <textarea  
-              className="form-control bg-dark text-light border-secondary"
+              className="form-control text-light border-secondary"
               name="message"
               defaultValue={message}
               rows="5"
@@ -109,7 +109,7 @@ function Contact() {
             </div>
           )}
           <div className="d-flex">
-            <button type="submit" className="btn custom-btn rounded-pill px-4 mx-auto">
+            <button type="submit" className="btn btn-outline-info fw-bold rounded-pill px-4 mx-auto">
               Submit
             </button>
           </div>

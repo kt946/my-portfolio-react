@@ -15,7 +15,7 @@ function Project({ project }) {
     // section for Project component
     // create a card for each project and insert project data into card.
     <div className="col">
-      <div className="card h-100 shadow border-primary">
+      <div className="card h-100 shadow">
         {/* project image */}
         <a 
           href={deployed}
@@ -27,25 +27,25 @@ function Project({ project }) {
             alt={`Screenshot of ${title}`}
           />
         </a>
-        <div className="card-header bg-primary">
-          {/* project title */}
-          <h2 className="card-title fs-4 fw-bold my-1">{title}</h2>
-        </div>
         <div className="card-body d-flex flex-column justify-content-between">
-          {/* project description */}
-          <p className="card-text custom-text-color mb-0 body-text">{description}</p>
           <div>
-            <hr />
+            {/* project title */}
+            <h2 className="card-title fs-4 fw-bold">{title}</h2>
+            {/* project description */}
+            <p className="card-text custom-text-color mb-0 body-text">{description}</p>
+          </div>
+          <div>
+            <hr className="text-info opacity-100"/>
             {/* project technologies */}
             <h3 className="card-text fs-6">Technologies Used:</h3>
             <p className="card-text custom-text-color body-text">{technology}</p>
           </div>
         </div>
-        <div className="card-footer bg-primary d-flex justify-content-between align-items-center">
+        <div className="px-3 pb-3 d-flex justify-content-between align-items-center">
           {/* link to deployed application */}
-          <a href={deployed} role="button" className="btn custom-btn rounded-pill">View Project</a>
+          <a href={deployed} className="btn btn-outline-info fw-bold rounded-pill">View Project</a>
           {/* link to github repository */}
-          <a href={repo} role="button" className="btn custom-btn rounded-pill">
+          <a href={repo} className="btn btn-outline-info fw-bold rounded-pill">
             <i className="bi bi-github"></i> Github
           </a>
         </div>

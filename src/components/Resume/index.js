@@ -27,7 +27,8 @@ function Resume() {
     'Object-Relational Mapping (ORM)',
     'Model-View-Controller (MVC)',
     'Handlebars',
-    'NoSQL, MongoDb, Mongoose',
+    'PWAs',
+    'NoSQL, MongoDB, Mongoose',
     'MERN',
     'GitHub',
     'Heroku',
@@ -35,7 +36,7 @@ function Resume() {
 
   return(
     // section for Resume component
-    <section id="resume" className="container py-4 custom-bg-color custom-height text-white">
+    <section id="resume" className="container py-4 custom-height text-white">
       <h1 className="section-title text-center pb-2 mb-4 animate__animated animate__fadeIn">
         Resume
       </h1>
@@ -46,7 +47,7 @@ function Resume() {
         {/* button for downloading resume */}
         <a 
           href="https://drive.google.com/file/d/1r3HfYnQr1qtijQ7Kv8SudnAkat5uMETE/view?usp=sharing" 
-          className="btn custom-btn rounded-pill"
+          className="btn btn-outline-info btn-lg fw-bold rounded-pill"
         >
           Download resume
         </a>
@@ -54,8 +55,8 @@ function Resume() {
       <div className="d-flex mb-4 flex-column flex-md-row justify-content-evenly align-items-center align-items-md-start animate__animated animate__fadeIn animate__delay-1s">
         {/* card for displaying front-end skills */}
         <div className="card shadow skill-card mb-4">
-          <div className="card-header bg-primary py-3">
-            <h2 class="text-center fs-4 fw-bold mb-0">
+          <div className="card-header bg-dark py-3">
+            <h2 class="text-info text-center fs-4 fw-bold mb-0">
               Front-end Proficiencies
             </h2>
           </div>
@@ -73,8 +74,8 @@ function Resume() {
         </div>
         {/* card for displaying back-end skills */}
         <div className="card shadow skill-card">
-          <div className="card-header bg-primary py-3">
-            <h2 class="text-center fs-4 fw-bold mb-0">
+          <div className="card-header bg-dark py-3">
+            <h2 class="text-info text-center fs-4 fw-bold mb-0">
               Back-end Proficiencies
             </h2>
           </div>
