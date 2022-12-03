@@ -11,7 +11,7 @@ function Portfolio() {
       description: `CodeFlow is an interactive social media MERN stack SPA that gives developers 
         a creative hub to show off their coding projects through posts, add 
         friends, and join the discussion with other developers in threaded comments.`,
-      deployed: 'https://code-flow-app.herokuapp.com/',
+      deployed: 'https://codeflow.onrender.com',
       repo: 'https://github.com/cnohilly/codeflow'
     },
     {
@@ -20,7 +20,7 @@ function Portfolio() {
       technology: 'Node, MySQL, Sequelize, Handlebars, Bulma, MVC, TMDB API',
       description: `A full-stack app allowing users to search for movies and TV shows, create accounts to add them to 
         their personal watchlist saved in a SQL database, leave comments, and rate movies.`,
-      deployed: 'https://watch-it-later.herokuapp.com/',
+      deployed: 'https://watch-it-later.onrender.com/',
       repo: 'https://github.com/cnohilly/watch-it-later'
     },
     {
@@ -39,7 +39,7 @@ function Portfolio() {
       technology: 'MERN, JavaScript, GraphQL, JWT, Stripe, Redux',
       description: `An e-commerce full-stack MERN application that uses Redux to manage global state. Users can create 
         accounts to add products to their shopping cart and checkout using the Stripe API.`,
-      deployed: 'https://shop-shop-75043.herokuapp.com',
+      deployed: 'https://shop-shop.onrender.com',
       repo: 'https://github.com/kt946/awesome-shop-shop-redux'
     },
     {
@@ -47,7 +47,7 @@ function Portfolio() {
       image: 'pizza-hunt.png',
       technology: 'Node, Express, NoSQL, MongoDB, Mongoose',
       description: `Hungry for some pizza? Check out Pizza Hunt, an app that uses NoSQL to store pizza recipies and user comments.`,
-      deployed: 'https://pizza-hunt-13648.herokuapp.com/',
+      deployed: 'https://pizza-hunt-wmr7.onrender.com',
       repo: 'https://github.com/kt946/pizza-hunt'
     },
     {
@@ -55,7 +55,7 @@ function Portfolio() {
       image: 'the-epic-tech-blog.png',
       technology: 'Node, Express, MySQL, Sequelize, Handlebars, Bootstrap, MVC',
       description: `A CMS-style blog site using the MVC paradigm for discussing technology through blog posts and comments.`,
-      deployed: 'https://sheltered-mesa-54132.herokuapp.com/',
+      deployed: 'https://epic-tech-blog.onrender.com',
       repo: 'https://github.com/kt946/epic-tech-blog-MVC'
     },
     {
