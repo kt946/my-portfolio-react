@@ -17,21 +17,20 @@ function Resume() {
 
   // array of back-end skills
   const backEndSkills = [
+    'Git',
+    'Github',
     'AJAX',
-    'APIs',
+    'Third-party APIs',
     'Node',
     'Object-Oriented Programming (OOP)',
     'Express',
-    'REST',
+    'REST API',
     'SQL, MySQL, Sequelize',
     'Object-Relational Mapping (ORM)',
     'Model-View-Controller (MVC)',
     'Handlebars',
-    'PWAs',
     'NoSQL, MongoDB, Mongoose',
     'MERN',
-    'GitHub',
-    'Heroku',
   ];
 
   return(
