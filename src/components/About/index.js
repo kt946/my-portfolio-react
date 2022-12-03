@@ -8,7 +8,7 @@ function About() {
       {/* Landing page */}
       <div className="hero text-center d-flex flex-column justify-content-center align-items-center">
         <h1 className="px-2 display-6">
-          <span className="animate__animated animate__fadeInDown delay-1">
+          <span className="animate__animated animate__fadeInDown">
             Hello world! I'm
           </span>
           <br />
