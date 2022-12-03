@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio-react/static/css/main.cb108892.css",
-    "main.js": "/my-portfolio-react/static/js/main.4d4c9893.js",
+    "main.css": "/my-portfolio-react/static/css/main.7a0d57cd.css",
+    "main.js": "/my-portfolio-react/static/js/main.f17366e9.js",
     "static/js/787.fe039db8.chunk.js": "/my-portfolio-react/static/js/787.fe039db8.chunk.js",
     "static/media/watch-it-later.png": "/my-portfolio-react/static/media/watch-it-later.920c9e15360e89fd0ce5.png",
     "static/media/movie-tv-watchlist.png": "/my-portfolio-react/static/media/movie-tv-watchlist.915ab59fdea1d9fecd62.png",
@@ -21,12 +21,12 @@
     "static/media/password-generator.png": "/my-portfolio-react/static/media/password-generator.782f4d2336b5a9f24673.png",
     "index.html": "/my-portfolio-react/index.html",
     "static/media/mylogo.svg": "/my-portfolio-react/static/media/mylogo.03f1ddde85ac76243c4bf8d9e0fec6ea.svg",
-    "main.cb108892.css.map": "/my-portfolio-react/static/css/main.cb108892.css.map",
-    "main.4d4c9893.js.map": "/my-portfolio-react/static/js/main.4d4c9893.js.map",
+    "main.7a0d57cd.css.map": "/my-portfolio-react/static/css/main.7a0d57cd.css.map",
+    "main.f17366e9.js.map": "/my-portfolio-react/static/js/main.f17366e9.js.map",
     "787.fe039db8.chunk.js.map": "/my-portfolio-react/static/js/787.fe039db8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb108892.css",
-    "static/js/main.4d4c9893.js"
+    "static/css/main.7a0d57cd.css",
+    "static/js/main.f17366e9.js"
   ]
 }
