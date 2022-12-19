@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef  } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+  const form = useRef();
+
   // set form default state to empty
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const { name, email, message } = formState;
@@ -36,7 +39,13 @@ function Contact() {
   // function for form submit
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(formState);
+    
+    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAILJS_PUBLIC_KEY)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   }
 
   return(
@@ -68,7 +77,7 @@ function Contact() {
       </div>
       {/* contact form */}
       <div className="d-flex mb-4 justify-content-center animate__animated animate__fadeIn animate__delay-1s">
-        <form id="contact-form" className="rounded p-4 shadow" onSubmit={handleSubmit}>
+        <form ref={form} id="contact-form" className="rounded p-4 shadow" onSubmit={handleSubmit}>
           {/* name */}
           <div className="mb-3">
             <label htmlFor="name" className="form-label fs-5">Name</label>

@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://kt946.github.io/my-portfolio-react",
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",
