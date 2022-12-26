@@ -58,31 +58,6 @@ function Portfolio() {
       deployed: 'https://epic-tech-blog.onrender.com',
       repo: 'https://github.com/kt946/epic-tech-blog-MVC'
     },
-    {
-      title: 'Weather Dashboard',
-      image: 'weather-dashboard.png',
-      technology: 'HTML, CSS, JavaScript, Bootstrap, OpenWeather API',
-      description: `An app to search for the current weather and 5-day forecast in cities using the OpenWeather One Call API.`,
-      deployed: 'https://kt946.github.io/weather-dashboard/',
-      repo: 'https://github.com/kt946/weather-dashboard'
-    },
-    {
-      title: 'Taskmaster Pro',
-      image: 'taskmaster-pro.png',
-      technology: 'HTML, CSS, JavaScript, jQuery, Bootstrap',
-      description: `Got a busy week ahead? Taskmaster Pro, a task-management application, can help you 
-        organize and save your tasks and due dates all from your local browser!`,
-      deployed: 'https://kt946.github.io/taskmaster-pro/',
-      repo: 'https://github.com/kt946/taskmaster-pro'
-    },
-    {
-      title: 'Password Generator',
-      image: 'password-generator.png',
-      technology: 'HTML, CSS, JavaScript',
-      description: `A simple JavaScript app that generates a random password based on parameters chosen by the user.`,
-      deployed: 'https://kt946.github.io/password-generator/',
-      repo: 'https://github.com/kt946/password-generator'
-    },
   ]);
 
   return(
