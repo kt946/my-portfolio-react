@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio-react/static/css/main.7a0d57cd.css",
-    "main.js": "/my-portfolio-react/static/js/main.8db3a89f.js",
+    "main.js": "/my-portfolio-react/static/js/main.6af307d4.js",
     "static/js/787.fe039db8.chunk.js": "/my-portfolio-react/static/js/787.fe039db8.chunk.js",
     "static/media/watch-it-later.png": "/my-portfolio-react/static/media/watch-it-later.920c9e15360e89fd0ce5.png",
     "static/media/movie-tv-watchlist.png": "/my-portfolio-react/static/media/movie-tv-watchlist.915ab59fdea1d9fecd62.png",
     "static/media/shop-shop.png": "/my-portfolio-react/static/media/shop-shop.7194edbf4b77cb271ee2.png",
-    "static/media/weather-dashboard.png": "/my-portfolio-react/static/media/weather-dashboard.92c4fac511c1eeaf733c.png",
     "static/media/landing-page.png": "/my-portfolio-react/static/media/landing-page.6f15a520e2a905ddbcc2.png",
     "static/media/portfolio.png": "/my-portfolio-react/static/media/portfolio.d9d18808f47994071855.png",
     "static/media/the-epic-tech-blog.png": "/my-portfolio-react/static/media/the-epic-tech-blog.7114f49e451187b23f09.png",
@@ -17,16 +16,14 @@
     "static/media/portrait.png": "/my-portfolio-react/static/media/portrait.37f361d29b4f12fa72e7.png",
     "static/media/contact.png": "/my-portfolio-react/static/media/contact.685779abff511c66d298.png",
     "static/media/codeflow.png": "/my-portfolio-react/static/media/codeflow.d30380b051160bf1596a.png",
-    "static/media/taskmaster-pro.png": "/my-portfolio-react/static/media/taskmaster-pro.f6a6ce797a2311f5d285.png",
-    "static/media/password-generator.png": "/my-portfolio-react/static/media/password-generator.782f4d2336b5a9f24673.png",
     "index.html": "/my-portfolio-react/index.html",
     "static/media/mylogo.svg": "/my-portfolio-react/static/media/mylogo.03f1ddde85ac76243c4bf8d9e0fec6ea.svg",
     "main.7a0d57cd.css.map": "/my-portfolio-react/static/css/main.7a0d57cd.css.map",
-    "main.8db3a89f.js.map": "/my-portfolio-react/static/js/main.8db3a89f.js.map",
+    "main.6af307d4.js.map": "/my-portfolio-react/static/js/main.6af307d4.js.map",
     "787.fe039db8.chunk.js.map": "/my-portfolio-react/static/js/787.fe039db8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a0d57cd.css",
-    "static/js/main.8db3a89f.js"
+    "static/js/main.6af307d4.js"
   ]
 }
